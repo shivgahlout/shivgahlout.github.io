@@ -790,3 +790,7 @@ pre {
 ul {
   text-align: justify;
 }
+
+li{
+  margin: 10px 0;
+}
