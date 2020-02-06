@@ -5,9 +5,9 @@
 
 <h3>Conferences</h3>
 <ul>
-<li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <strong>Accepted</strong>, IEEE InternationalConference on Acoustics, Speech, and Signal Processing (ICASSP), 2020.</li>
+<li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <strong>Accepted</strong>, IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2020.</li>
   
-<li> Shiv  Gehlot,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Im-pute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with SplitBregman Iteration," IEEE International Symposium on Biomedical Imaging (ISBI), 2019.</li>
+<li> Shiv  Gehlot,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Im-pute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," IEEE International Symposium on Biomedical Imaging (ISBI), 2019.</li>
 </ul>
 
 <h3>From Previous Life</h3>
