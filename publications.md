@@ -1,3 +1,10 @@
+---
+layout: page
+title: Publications
+use-site-title: true
+---
+
+
 <h3>Journals</h3>
 <ul>
 <li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet^θ: DCT Augmented Stain Deconvo-lutional CNN with Auxiliary Classifier for Cancer Diagnosis," <strong>Accepted</strong>, Medical Image Analysis, 2020.  </li>
