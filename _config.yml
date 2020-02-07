@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Shiv Gahlout
+title: Shiv Gehlot
 
 # Short description of your site
 #description: A virtual proof that I'm awesome
@@ -61,7 +61,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Shiv Gahlout
+  name: Shiv Gehlot
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -72,7 +72,7 @@ social-network-links:
   #email: "someone@example.com"
   #facebook: deanattali
   github: shivgahlout
-  twitter: gahloutshiv
+  twitter: gehlotbshiv
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
