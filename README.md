@@ -1,1 +1,1 @@
-Personal website. The content like images, codes are personal and can not be used without permission. 
+Personal website. The content like personal images can not be used without permission. 
