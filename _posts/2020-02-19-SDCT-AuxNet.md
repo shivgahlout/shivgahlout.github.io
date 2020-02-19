@@ -24,3 +24,4 @@ Test a display math with equation number:
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
   \end{align}
 Is it O.K.?
+
