@@ -1,4 +1,5 @@
 # --- General options --- #
+markdown: kramdown
 
 # Name of website
 title: Shiv Gehlot
