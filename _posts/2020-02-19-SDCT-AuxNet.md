@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SDCT-AuxNet$^{\theta}$"
+title: SDCT-AuxNet$^{\theta}$
 date: 2020-02-19
 use_math: true
 ---
