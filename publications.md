@@ -10,7 +10,7 @@ use_math: true
 <ul>
 <li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet$^θ$: DCT Augmented Stain Deconvo-lutional CNN with Auxiliary Classifier for Cancer Diagnosis," <strong>Accepted</strong>, Medical Image Analysis, 2020. <a href="
 https://authors.elsevier.com/a/1aa8E_UzlO0NjB">
-<img border="0" alt="pdf" src="/img/PDF-Logo.png" width="18" height="18"> </li>
+<img border="0" alt="pdf" src="/img/PDF-Logo.png" width="18" height="18"> </a>
 </ul>
 
 <h3>Conferences</h3>
