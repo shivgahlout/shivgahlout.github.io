@@ -17,7 +17,7 @@ https://authors.elsevier.com/a/1aa8E_UzlO0NjB">
 <ul>
 <li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <strong>Accepted</strong>, <i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>, 2020.</li>
   
-<li> Shiv  Gehlot,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Im-pute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," IEEE International Symposium on Biomedical Imaging (ISBI), 2019.<a href="https://ieeexplore.ieee.org/abstract/document/8759462">
+<li> Shiv  Gehlot,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Im-pute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," <i>IEEE International Symposium on Biomedical Imaging (ISBI)</i>, 2019.<a href="https://ieeexplore.ieee.org/abstract/document/8759462">
 <img border="0" alt="pdf" src="/img/PDF-Logo.png" width="18" height="18">
 </a></li>
 </ul>
@@ -25,9 +25,9 @@ https://authors.elsevier.com/a/1aa8E_UzlO0NjB">
 <h3>From Previous Life</h3>
 <ul>
   
-<li> Shiv Gehlot, John Deva Kumar, "The Image Segmentation Techniques," International Journal ofImage, Graphics and Signal Processing (IJIGSP), Vol.9, No.2, pp.9-18, 2017.</li>
+<li> Shiv Gehlot, John Deva Kumar, "The Image Segmentation Techniques," <i>International Journal ofImage, Graphics and Signal Processing (IJIGSP)</i>, Vol.9, No.2, pp.9-18, 2017.</li>
 
-<li> Shiv Gehlot, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP), Vol.8,  No.9,  pp.1-9, 2016.</li>
+<li> Shiv Gehlot, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," <i>International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP)</i>, Vol.8,  No.9,  pp.1-9, 2016.</li>
 
 
 </ul>
