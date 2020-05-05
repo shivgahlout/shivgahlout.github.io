@@ -23,7 +23,7 @@ title: Shiv Gehlot
 navbar-links:
   About Me: "aboutme"
   Publications: "publications"
-  Discussion: "blog"
+  #Discussion: "blog"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
