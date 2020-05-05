@@ -22,7 +22,8 @@ title: Shiv Gehlot
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Publication: "publications"
+  Publications: "publications"
+  Discussion: "blog"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
