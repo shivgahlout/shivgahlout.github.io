@@ -15,9 +15,9 @@ use_math: true
 <li> The challenge CNMC-2019 has been sponsored by the IBM. </li>
 <li> A research paper titled "CT-NNBI: Method To Impute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration" has been accepted in the IEEE International Symposium on Biomedical Imaging $(ISBI)$, 2019</li>
 <li> Challenge titled “Classification of Normal versus Malignant Cells in B-ALL $(CNMC-2019)$” has been accepted for hosting at IEEE International Symposium for Biomedical Imaging $(ISBI)$ 2019. The challenge is starting on Nov 10, 2018.</li>
-</ul>
 
-<center><h2>Posts</h2></center>
+
+
 
 
 
