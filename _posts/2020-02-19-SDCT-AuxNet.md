@@ -11,16 +11,15 @@ https://doi.org/10.7937/tcia.2019.dc64i46r">
 https://doi.org/10.1016/j.media.2020.101661">
 [here]</a>, and the code will be made public soon. 
 <div id="demobox">
-BibTeX Citation:
-@article{GEHLOT2020101661,
-title = "SDCT-AuxNetθ: DCT augmented stain deconvolutional CNN with auxiliary classifier for cancer diagnosis",
-journal = "Medical Image Analysis",
-volume = "61",
-pages = "101661",
-year = "2020",
-issn = "1361-8415",
-doi = "https://doi.org/10.1016/j.media.2020.101661",
-url = "http://www.sciencedirect.com/science/article/pii/S136184152030027X",
-author = "Shiv Gehlot and Anubha Gupta and Ritu Gupta",
+<p>@article{GEHLOT2020101661, <br>
+title = "SDCT-AuxNetθ: DCT augmented stain deconvolutional CNN with auxiliary classifier for cancer diagnosis", <br>
+journal = "Medical Image Analysis", <br>
+volume = "61", <br>
+pages = "101661", <br>
+year = "2020", <br>
+issn = "1361-8415", <br>
+doi = "https://doi.org/10.1016/j.media.2020.101661", <br>
+url = "http://www.sciencedirect.com/science/article/pii/S136184152030027X", <br>
+  author = "Shiv Gehlot and Anubha Gupta and Ritu Gupta", </p>
 }
 </div>
