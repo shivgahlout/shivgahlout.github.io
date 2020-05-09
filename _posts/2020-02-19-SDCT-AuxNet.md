@@ -11,7 +11,7 @@ https://doi.org/10.7937/tcia.2019.dc64i46r">
 https://doi.org/10.1016/j.media.2020.101661">
 [here]</a>, and the code will be made public soon. 
 <div id="demobox">
-<p> style="font-size:10%;"> @article{GEHLOT2020101661, <br>
+@article{GEHLOT2020101661, <br>
 title = "SDCT-AuxNetθ: DCT augmented stain deconvolutional CNN with auxiliary classifier for cancer diagnosis", <br>
 journal = "Medical Image Analysis", <br>
 volume = "61", <br>
@@ -20,6 +20,6 @@ year = "2020", <br>
 issn = "1361-8415", <br>
 doi = "https://doi.org/10.1016/j.media.2020.101661", <br>
 url = "http://www.sciencedirect.com/science/article/pii/S136184152030027X", <br>
-author = "Shiv Gehlot and Anubha Gupta and Ritu Gupta", </p>
+author = "Shiv Gehlot and Anubha Gupta and Ritu Gupta",
 }
 </div>
