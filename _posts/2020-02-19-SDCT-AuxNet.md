@@ -12,3 +12,6 @@ https://doi.org/10.1016/j.media.2020.101661">
 [here]</a>, and the code will be made public soon. 
 
 
+<div id="demobox">
+This is a demo box to illustrate the code given in thesitewizard.com's tutorial on creating coloured boxes.
+</div>
