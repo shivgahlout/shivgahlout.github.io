@@ -11,7 +11,9 @@ https://doi.org/10.7937/tcia.2019.dc64i46r">
 https://doi.org/10.1016/j.media.2020.101661">
 [here]</a>, and the code will be made public soon. 
 
-
+<!DOCTYPE html>
+<html>
+<body>
 
 function CopyToClipboard (containerid) {
   // Create a new textarea element and give it id='temp_element'
@@ -35,3 +37,5 @@ function CopyToClipboard (containerid) {
   "This text will be copied to your clipboard when you click the button!"
 </div>
 <button onClick="CopyToClipboard('to-copy')">Copy</button>
+</body>
+</html>
