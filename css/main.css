@@ -797,8 +797,8 @@ li{
 }
 
 #demobox{
- background-color: rgba(0, 0, 225, 0.2);
+ background-color: rgba(0, 0, 225, 0.1);
   padding: 10px ;
   border: 1px solid blue ;
-  font-size: 15px;
+  font-size: 5px;
 }
