@@ -11,7 +11,7 @@ https://doi.org/10.7937/tcia.2019.dc64i46r">
 https://doi.org/10.1016/j.media.2020.101661">
 [here]</a>, and the code will be made public soon. 
 <div id="demobox">
-<p>@article{GEHLOT2020101661, <br>
+<p> style="font-size:10%;"> @article{GEHLOT2020101661, <br>
 title = "SDCT-AuxNetθ: DCT augmented stain deconvolutional CNN with auxiliary classifier for cancer diagnosis", <br>
 journal = "Medical Image Analysis", <br>
 volume = "61", <br>
