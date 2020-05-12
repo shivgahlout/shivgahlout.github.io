@@ -18,10 +18,8 @@ volume = "61", <br>
 pages = "101661", <br>
 year = "2020", <br>
 issn = "1361-8415", <br>
-doi = "https://doi.org/10.1016/
-  j.media.2020.101661", <br>
-url = "http://www.sciencedirect.com/science/
-  article/pii/S136184152030027X", <br>
+doi = "https://doi.org/10.1016/j.media.2020.101661", <br>
+url = "http://www.sciencedirect.com/science/article/pii/S136184152030027X", <br>
 author = "Shiv Gehlot and Anubha Gupta and Ritu Gupta",
 }
 </div>
