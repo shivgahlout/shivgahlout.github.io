@@ -802,4 +802,6 @@ li{
   border: 1px solid blue ;
   font-size: 11px;
   font-family: "Lucida Console", Courier, monospace;
+  resize: both;
+  overflow: auto;
 }
