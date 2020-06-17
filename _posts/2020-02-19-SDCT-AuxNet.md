@@ -11,7 +11,9 @@ SDCT-AuxNet$^\theta$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Cla
 https://doi.org/10.7937/tcia.2019.dc64i46r">
 [TCIA]</a>. The article is available <a href="
 https://doi.org/10.1016/j.media.2020.101661">
-[here]</a>, and the code will be made public soon. The BibTeX citation of the article is as follows:
+[here]</a>, and the code is available <a href="
+https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer">
+[here]</a>. The BibTeX citation of the article is as follows:
 <div id="demobox">
 @article{GEHLOT2020101661, <br>
 title = "SDCT-AuxNetθ: DCT augmented stain deconvolutional CNN with auxiliary classifier for cancer diagnosis", <br>
