@@ -17,7 +17,7 @@ https://doi.org/10.1016/j.media.2020.101661">
 <h3>Conferences</h3>
 <ul>
 <li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <i>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing $(ICASSP)$, Barcelona, Spain, 2020, pp. 1389-1393, doi: 10.1109/ICASSP40776.2020.9053633.</i><a href="https://ieeexplore.ieee.org/document/9053633">
-<img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18"> </a> </li>
+<img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18"> </a><a href="https://shivgahlout.github.io/2020-05-14-EDNFC-Net/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a> </li>
   
 <li> Shiv  Gehlot,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Im-pute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," <i>IEEE International Symposium on Biomedical Imaging $(ISBI)$ </i>, 2019.<a href="https://ieeexplore.ieee.org/abstract/document/8759462">
 <img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18">
