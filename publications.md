@@ -34,7 +34,7 @@ https://doi.org/10.1016/j.media.2020.101661">
 
 </ul>
 
-<h3>Challenge Organized</h3>
+<h3>Challenges Organized</h3>
 <ul>
   
 <li>Classification of Normal versus Malignant Cells in B-ALL White Blood Cancer Microscopic Images,IEEE International Symposium on Biomedical Imaging $(ISBI)$, 2019 <a href="https://competitions.codalab.org/competitions/20395" style="color:rgba(0,0,0,255,.2);">[Challenge Website]</a></li>
