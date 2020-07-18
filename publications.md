@@ -8,7 +8,7 @@ use_math: true
 
 <h3>Journals</h3>
 <ul>
-<li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet$^θ$: DCT Augmented Stain Deconvo-lutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>. 61 (2020), doi:10.1016/j.media.2020.101661. <a href="
+<li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet$^θ$: DCT Augmented Stain Deconvo-lutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>. 61 (2020), doi:10.1016/j.media.2020.101661. <a href="
 https://doi.org/10.1016/j.media.2020.101661">
 <img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a><a href="https://arxiv.org/abs/2006.00304" style="color:rgba(0,0,0,255,.2);">[Preprint]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
 </ul>
@@ -16,10 +16,10 @@ https://doi.org/10.1016/j.media.2020.101661">
 
 <h3>Conferences</h3>
 <ul>
-<li>Shiv Gehlot, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <i>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing $(ICASSP)$, Barcelona, Spain, 2020, pp. 1389-1393, doi: 10.1109/ICASSP40776.2020.9053633.</i><a href="https://ieeexplore.ieee.org/document/9053633">
+<li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <i>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing $(ICASSP)$, Barcelona, Spain, 2020, pp. 1389-1393, doi: 10.1109/ICASSP40776.2020.9053633.</i><a href="https://ieeexplore.ieee.org/document/9053633">
 <img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18"> </a><a href="https://shivgahlout.github.io/2020-05-14-EDNFC-Net/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a> </li>
   
-<li> Shiv  Gehlot,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Impute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," <i>2019 IEEE 16th International Symposium on Biomedical Imaging $(ISBI)$, Venice, Italy, 2019, pp. 1315-1318, doi: 10.1109/ISBI.2019.8759462.</i><a href="https://ieeexplore.ieee.org/abstract/document/8759462">
+<li> <b>Shiv  Gehlot</b>,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Impute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," <i>2019 IEEE 16th International Symposium on Biomedical Imaging $(ISBI)$, Venice, Italy, 2019, pp. 1315-1318, doi: 10.1109/ISBI.2019.8759462.</i><a href="https://ieeexplore.ieee.org/abstract/document/8759462">
 <img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18">
 </a></li>
 </ul>
@@ -27,9 +27,9 @@ https://doi.org/10.1016/j.media.2020.101661">
 <h3>From Previous Life</h3>
 <ul>
   
-<li> Shiv Gehlot, John Deva Kumar, "The Image Segmentation Techniques," <i>International Journal ofImage, Graphics and Signal Processing (IJIGSP)</i>, Vol.9, No.2, pp.9-18, 2017.</li>
+<li> <b>Shiv Gehlot</b>, John Deva Kumar, "The Image Segmentation Techniques," <i>International Journal ofImage, Graphics and Signal Processing (IJIGSP)</i>, Vol.9, No.2, pp.9-18, 2017.</li>
 
-<li> Shiv Gehlot, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," <i>International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP)</i>, Vol.8,  No.9,  pp.1-9, 2016.</li>
+<li> <b>Shiv Gehlot</b>, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," <i>International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP)</i>, Vol.8,  No.9,  pp.1-9, 2016.</li>
 
 
 </ul>
