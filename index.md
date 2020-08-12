@@ -9,8 +9,8 @@ use_math: true
 <center><h2>News</h2></center>
 
 <ul>
-<li>A research paper titled "GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images" has been accepted for publication in Medical Image Analysis (2020 I.F.-11.148).<img src="/img/notification_1.gif" alt="Smiley face"  height="35" width="35"> </li>
-<li>A research paper titled "SDCT-AuxNet$^\theta$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis" has been accepted for publication in Medical Image Analysis (2020 I.F.-11.148).</li>
+<li>A research paper titled "GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images" has been accepted for publication in Medical Image Analysis $(2020\ I.F.\ 11.148)$.<img src="/img/notification_1.gif" alt="Smiley face"  height="35" width="35"> </li>
+<li>A research paper titled "SDCT-AuxNet$^\theta$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis" has been accepted for publication in Medical Image Analysis $(2020\ I.F.\ 11.148)$.</li>
  <li>A research paper titled "EDNFC-NET: Convolutional Neural Network with Nested Feature Concatenation for Nuclei-Instance Segmentation" has been accepted in the IEEE Signal Processing Society's flagship conference International Conference on Acoustics, Speech, and Signal Processing $(IEEE\ ICASSP\ 2020)$ to be held in May, 2020 in Barcelona, Spain.
 <li> I will be visting ISBI 2019, Venice for the poster presentation of my accepted research paper.</li>
 <li> The challenge CNMC-2019 has been sponsored by the IBM. </li>
