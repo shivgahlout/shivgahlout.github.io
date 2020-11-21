@@ -20,6 +20,7 @@ title: Shiv Gehlot
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
+url: "https://shivgahlout.github.io/"
 navbar-links:
   About Me: "aboutme"
   Publications: "publications"
