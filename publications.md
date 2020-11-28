@@ -37,6 +37,7 @@ use_math: true
 <ul>
   
 <li>Classification of Normal versus Malignant Cells in B-ALL White Blood Cancer Microscopic Images, IEEE International Symposium on Biomedical Imaging $(ISBI)$, 2019. <a href="https://competitions.codalab.org/competitions/20395" style="color:rgba(0,0,0,255,.2);">[Challenge Website]</a></li>
+<li>Classification of Normal versus Malignant Cells in B-ALL White Blood Cancer Microscopic Images, IEEE International Symposium on Biomedical Imaging $(ISBI)$, 2021. <a href="https://segpc-2021.grand-challenge.org/" style="color:rgba(0,0,0,255,.2);">[Challenge Website]</a></li>
 
 
 </ul>
