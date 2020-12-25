@@ -10,9 +10,9 @@ use_math: true
 <ul>
 <li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet$^θ$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>,Volume 61, 101661, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101661"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a><a href="https://arxiv.org/abs/2006.00304" style="color:rgba(0,0,0,255,.2);">[Preprint]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
-<div id="header-wrapper">
+<p align="center">
     <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="30%">
-</div>
+ </p>
 <li>Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy, "GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images," <i>Medical Image Analysis</i>, Volume 65, 101788, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101788"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://github.com/shivgahlout/GCTI-SN" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
     <p align="center">
