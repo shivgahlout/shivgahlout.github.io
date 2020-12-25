@@ -15,6 +15,9 @@ use_math: true
 </p>
 <li>Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy, "GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images," <i>Medical Image Analysis</i>, Volume 65, 101788, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101788"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://github.com/shivgahlout/GCTI-SN" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
+    <p align="center">
+    <img src="/img/GCTISN_graphical_abstract.png" width="30%" style="border-bottom:1px solid black;">
+    </p>
 </ul>
 
 
