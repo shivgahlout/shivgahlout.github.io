@@ -24,7 +24,7 @@ url: "https://shivgahlout.github.io/"
 navbar-links:
   About Me: "aboutme"
   Publications: "publications"
-  Discussions: "blog"
+  Blog: "blog"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
