@@ -8,7 +8,7 @@ use_math: false
 ### 1. Classification of Normal vs Malignant Cells in B-ALL White Blood Cancer Microscopic Image (CNMC-19)
 This challenges was organized as a part of The IEEE International Symposium on Biomedical Imaging (ISBI)-2019 conference. It was a collaborative 
 work of [SBILab, IIIT-Delhi](http://sbilab.iiitd.edu.in/) and [Laboratory Oncology Unit, AIIMS, New-Delhi](https://www.aiims.edu/en/laboratory-oncology.html).
-
+ <center> <img src="/img/cnmc_logo.png" width="30%"></center>
 #### Aim: Classification of leukemic B-lymphoblast cells from normal B-lymphoid precursors from blood smear microscopic images.
 In this challenge, a dataset of cells with labels (normal versus malignant) was be provided to train machine learning based classifier to 
 identify normal cells from leukemic blasts (malignant cells). These cells were segmented from the images after stain normalization. 
@@ -19,7 +19,7 @@ The  methods developed by participants were compared using weighted F1 performan
 ### 2. Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)
 This challenge is being organized as a part of The IEEE International Symposium on Biomedical Imaging (ISBI)-2021 conference. It is a collaborative 
 work of [SBILab, IIIT-Delhi](http://sbilab.iiitd.edu.in/) and [Laboratory Oncology Unit, AIIMS, New-Delhi](https://www.aiims.edu/en/laboratory-oncology.html).
-
+ <center> <img src="/img/segpc_logo.png" width="30%"></center>
 #### Aim: Segmentation of cells' (nucleus+cytoplasm) instances from multiple myeloma microscopic images.
 This challenge is foucssed on cell instance segmentation. The problem is challenging as it involves whole cell (nucleus+cytoplasm) segmentation. Also, cell instance 
 segmentation is challenging when cells are clustered. \
