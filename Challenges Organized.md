@@ -6,7 +6,7 @@ use_math: false
 ---
 
 ### 1. Classification of Normal vs Malignant Cells in B-ALL White Blood Cancer Microscopic Image (CNMC-19)
- <center> <img src="/img/cnmc_logo.png" width="25%"></center>
+ <center> <img src="/img/cnmc_logo.png" width="30%"></center>
 This challenges was organized as a part of The IEEE International Symposium on Biomedical Imaging (ISBI)-2019 conference. It was a collaborative 
 work of [SBILab, IIIT-Delhi](http://sbilab.iiitd.edu.in/) and [Laboratory Oncology Unit, AIIMS, New-Delhi](https://www.aiims.edu/en/laboratory-oncology.html).
 
