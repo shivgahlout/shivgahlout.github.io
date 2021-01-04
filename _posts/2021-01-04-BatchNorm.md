@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Does Batch Normalization works?
-date: 2020-12-26
+date: 2021-01-04
 use_math: true
 ---
 ## Introduction
