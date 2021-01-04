@@ -10,7 +10,6 @@ This challenges was organized as a part of The IEEE International Symposium on B
 work of [SBILab, IIIT-Delhi](http://sbilab.iiitd.edu.in/) and [Laboratory Oncology Unit, AIIMS, New-Delhi](https://www.aiims.edu/en/laboratory-oncology.html).
 
 #### Aim: Classification of leukemic B-lymphoblast cells from normal B-lymphoid precursors from blood smear microscopic images.
-
 In this challenge, a dataset of cells with labels (normal versus malignant) was be provided to train machine learning based classifier to 
 identify normal cells from leukemic blasts (malignant cells). These cells were segmented from the images after stain normalization. 
 The  methods developed by participants were compared using weighted F1 performance metric. The leaderboard of this challenge is till open and submssions can be made to evaluate the performance on the test set. \
