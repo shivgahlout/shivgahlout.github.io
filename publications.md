@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Publications
 use-site-title: true
 use_math: true
 ---
