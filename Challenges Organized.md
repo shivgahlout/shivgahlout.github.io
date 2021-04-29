@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Challenges Organized
 use-site-title: true
 use_math: false
 ---
