@@ -10,7 +10,7 @@ work of [SBILab, IIIT-Delhi](http://sbilab.iiitd.edu.in/) and [Laboratory Oncolo
 **Aim: Segmentation of cells' (nucleus+cytoplasm) instances from multiple myeloma microscopic images.**
 This challenge is foucssed on cell instance segmentation. The problem is challenging as it involves whole cell (nucleus+cytoplasm) segmentation. Also, cell instance 
 segmentation is challenging when cells are clustered. \
-[[Challenge Website]](https://segpc-2021.grand-challenge.org/)[Challenge Dataset](https://ieee-dataport.org/open-access/segpc-2021-segmentation-multiple-myeloma-plasma-cells-microscopic-images)
+[[Challenge Website]](https://segpc-2021.grand-challenge.org/)[[Challenge Dataset]](https://ieee-dataport.org/open-access/segpc-2021-segmentation-multiple-myeloma-plasma-cells-microscopic-images)
 
 **2. Classification of Normal vs Malignant Cells in B-ALL White Blood Cancer Microscopic Image (CNMC-19)**
  <center> <img src="/img/cnmc_logo.png" width="30%"></center>
