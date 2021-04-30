@@ -5,7 +5,7 @@ use_math: false
 **1. Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)**
  <center> <img src="/img/segpc_logo.png" width="30%"></center>
 This challenge is being organized as a part of The IEEE International Symposium on Biomedical Imaging (ISBI)-2021 conference. It is a collaborative 
-work of [SBILab, IIIT-Delhi](http://sbilab.iiitd.edu.in/) and [Laboratory Oncology Unit, AIIMS, New-Delhi](https://www.aiims.edu/en/laboratory-oncology.html).
+work of <a href="http://sbilab.iiitd.edu.in/" SBILab, IIIT-Delhi/a> and <a href="https://www.aiims.edu/en/laboratory-oncology.html" Laboratory Oncology Unit, AIIMS, New-Delhi/a> 
 
 **Aim: Segmentation of cells' (nucleus+cytoplasm) instances from multiple myeloma microscopic images.**
 This challenge is foucssed on cell instance segmentation. The problem is challenging as it involves whole cell (nucleus+cytoplasm) segmentation. Also, cell instance 
@@ -23,6 +23,8 @@ identify normal cells from leukemic blasts (malignant cells). These cells were s
 The  methods developed by participants were compared using weighted F1 performance metric. The leaderboard of this challenge is till open and submssions can be made to evaluate the performance on the test set. \
 [[Challenge Website]](https://competitions.codalab.org/competitions/20395)[[Challenge Dataset]](https://wiki.cancerimagingarchive.net/display/Public/C_NMC_2019+Dataset%3A+ALL+Challenge+dataset+of+ISBI+2019)
 [[Challenge Proceddings]](https://link.springer.com/book/10.1007%2F978-981-15-0798-4)
+
+
 
 
 
