@@ -29,7 +29,7 @@ use_math: true
 
 <h3>Book-Chapter</h3>
 <ul>
-<li>Anubha Gupta, <b>Shiv Gehlot</b> and Ritu Gupta, "Microscopy Cancer Cell Imaging In B-Lineage Acute Lymphoblastic Leukemia," <i>State of the Art in Neural Networks and Their Applications</i>, In Press.</li>
+<li>Anubha Gupta, <b>Shiv Gehlot</b> and Ritu Gupta, "Microscopy Cancer Cell Imaging In B-Lineage Acute Lymphoblastic Leukemia," <i>State of the Art in Neural Networks and Their Applications Vol 2</i>, In Press.</li>
 </ul>
 
 <h3>From Previous Life</h3>
