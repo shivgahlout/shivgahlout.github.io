@@ -19,13 +19,17 @@ use_math: true
 
 </ul>
 
-
 <h3>Conferences</h3>
 <ul>
 <li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation," <i>ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing $(ICASSP)$, Barcelona, Spain, 2020, pp. 1389-1393, doi: 10.1109/ICASSP40776.2020.9053633.</i><a href="https://ieeexplore.ieee.org/document/9053633"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18"> </a><a href="https://shivgahlout.github.io/2020-05-14-EDNFC-Net/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a> </li>
   
 <li> <b>Shiv  Gehlot</b>,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Impute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," <i>2019 IEEE 16th International Symposium on Biomedical Imaging $(ISBI)$, Venice, Italy, 2019, pp. 1315-1318, doi: 10.1109/ISBI.2019.8759462.</i><a href="https://ieeexplore.ieee.org/abstract/document/8759462"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18">
 </a></li>
+</ul>
+
+<h3>Book-Chapter</h3>
+<ul>
+<li>Anubha Gupta, <b>Shiv Gehlot</b> and Ritu Gupta, "Microscopy Cancer Cell Imaging In B-Lineage Acute Lymphoblastic Leukemia," <i>State of the Art in Neural Networks and Their Applications</i>, In Press.</li>
 </ul>
 
 <h3>From Previous Life</h3>
