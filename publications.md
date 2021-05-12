@@ -8,16 +8,16 @@ use_math: true
 <h3>Journals</h3>
 <ul>
    <li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis," accepted, <i>Medical Image Analysis</i>, 2021.
- <a href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><li>
-<center> <img src="/img/graphical_abstract.png" width="50%"></center>
+ <a href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"></a></li>
+   <center> <img src="/img/graphical_abstract.png" width="50%"></center>
+      
 <li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet$^θ$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>,Volume 61, 101661, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101661"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="color:rgba(0,0,255,255,.2);">[Blurb and BibTeX]</a><a href="https://arxiv.org/abs/2006.00304" style="color:rgba(0,0,0,255,.2);">[Preprint]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
+
    <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="30%"></center>
 <li>Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy, "GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images," <i>Medical Image Analysis</i>, Volume 65, 101788, 2020.
-<a href="https://doi.org/10.1016/j.media.2020.101788"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
-   
+<a href="https://doi.org/10.1016/j.media.2020.101788"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" style="color:rgba(0,0,0,255,.2);">[Code]</a></li> 
    <center> <img src="/img/GCTISN_graphical_abstract.jpg" width="30%"></center>
-
 </ul>
 
 <h3>Conferences</h3>
