@@ -1,7 +1,7 @@
 ---
 layout: page
 use-site-title: true
-use_math: false
+use_math: true
 ---
 
 
@@ -35,9 +35,7 @@ use_math: false
 
 <h3>From Previous Life</h3>
 <ul>
-  
 <li> <b>Shiv Gehlot</b>, John Deva Kumar, "The Image Segmentation Techniques," <i>International Journal ofImage, Graphics and Signal Processing (IJIGSP)</i>, Vol.9, No.2, pp.9-18, 2017.</li>
-
 <li> <b>Shiv Gehlot</b>, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," <i>International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP)</i>, Vol.8,  No.9,  pp.1-9, 2016.</li>
 </ul>
 
