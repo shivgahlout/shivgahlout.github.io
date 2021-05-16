@@ -1,7 +1,7 @@
 ---
 layout: page
 use-site-title: true
-use_math: true
+use_math: false
 ---
 
 
@@ -11,7 +11,7 @@ use_math: true
  <a href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"></a></li>
    <center> <img src="/img/graphical_abstract.png" width="50%"></center>
       
-<li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNet$^θ$: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>,Volume 61, 101661, 2020.
+<li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>,Volume 61, 101661, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101661"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="color:rgba(0,0,255,255,.2);">[Blurb and BibTeX]</a><a href="https://arxiv.org/abs/2006.00304" style="color:rgba(0,0,0,255,.2);">[Preprint]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
 
    <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="30%"></center>
