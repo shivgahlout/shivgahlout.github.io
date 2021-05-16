@@ -45,11 +45,11 @@ use_math: true
 <!--</ul> -->
 <h3>Challenges Organized</h3>
 
-**1. Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)**
+<h4>Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)</h4>
  <center> <img src="/img/segpc_logo.png" width="30%"></center>
 This challenge was organized as a part of The IEEE International Symposium on Biomedical Imaging (ISBI)-2021 conference. It was a collaborative work of <a href="http://sbilab.iiitd.edu.in/" style="color:rgba(0,0,0,255,.2);">SBILab, IIIT-Delhi</a> and <a href="https://www.aiims.edu/en/laboratory-oncology.html" style="color:rgba(0,0,0,255,.2);">Laboratory Oncology Unit, AIIMS, New-Delhi.</a>
 
-**Aim: Segmentation of cells' (nucleus+cytoplasm) instances from multiple myeloma microscopic images.**
+<h4>Aim: Segmentation of cells' (nucleus+cytoplasm) instances from multiple myeloma microscopic images.</h4>
 This challenge is foucssed on cell instance segmentation. The problem is challenging as it involves whole cell (nucleus+cytoplasm) segmentation. Also, cell instance 
 segmentation is challenging when cells are clustered. \
 [[Challenge Website]](https://segpc-2021.grand-challenge.org/)[[Challenge Dataset]](https://ieee-dataport.org/open-access/segpc-2021-segmentation-multiple-myeloma-plasma-cells-microscopic-images)
