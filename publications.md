@@ -33,16 +33,7 @@ use_math: false
 <li>Anubha Gupta, <b>Shiv Gehlot</b> and Ritu Gupta, "Microscopy Cancer Cell Imaging In B-Lineage Acute Lymphoblastic Leukemia," <i>State of the Art in Neural Networks and Their Applications Vol 2</i>, In Press.</li>
 </ul>
 
-<!-- 
-<h3>From Previous Life</h3>
-<ul>-->
-  
-<!--<li> <b>Shiv Gehlot</b>, John Deva Kumar, "The Image Segmentation Techniques," <i>International Journal ofImage, Graphics and Signal Processing (IJIGSP)</i>, Vol.9, No.2, pp.9-18, 2017.</li> -->
 
-<!--<li> <b>Shiv Gehlot</b>, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," <i>International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP)</i>, Vol.8,  No.9,  pp.1-9, 2016.</li> -->
-
-
-<!--</ul> -->
 <h3>Challenges Organized</h3>
 
 <h4>1. Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)</h4>
