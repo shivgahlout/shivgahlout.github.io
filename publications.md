@@ -45,7 +45,7 @@ use_math: false
 <!--</ul> -->
 <h3>Challenges Organized</h3>
 
-<h4>Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)</h4>
+<h4>1. Segmentation of Multiple Myeloma Plasma Cells in Microscopic Images (SegPc-2021)</h4>
  <center> <img src="/img/segpc_logo.png" width="30%"></center>
 This challenge was organized as a part of The IEEE International Symposium on Biomedical Imaging (ISBI)-2021 conference. It was a collaborative work of <a href="http://sbilab.iiitd.edu.in/" style="color:rgba(0,0,0,255,.2);">SBILab, IIIT-Delhi</a> and <a href="https://www.aiims.edu/en/laboratory-oncology.html" style="color:rgba(0,0,0,255,.2);">Laboratory Oncology Unit, AIIMS, New-Delhi.</a>
 
