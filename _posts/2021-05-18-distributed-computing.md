@@ -5,6 +5,8 @@ date: 2021-05-18
 use_math: true
 ---
 
+The related code is available [here](https://github.com/shivgahlout/DDP-Pytorch).
+
 We will discuss two techniques that can be used for distributed computing with PyTorch. Let's discuss some definitions first. 
 
 ## Some Definitions
