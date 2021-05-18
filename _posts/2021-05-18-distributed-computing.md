@@ -5,6 +5,8 @@ date: 2021-05-18
 use_math: true
 ---
 
+We will discuss two techniques that can be used for distributed computing with PyTorch. Let's discuss some definitions first. 
+
 ## Some Definitions
 
 #### 1. Process: 
