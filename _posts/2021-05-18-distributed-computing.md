@@ -189,3 +189,7 @@ On node 1
 python -m torch.distributed.launch --nnodes 2  --node_rank 1 --nproc_per_node=2 train_distributed_2.py
 ```
 Similarly, for other nodes also. Master address and can also passed as arguments with this module.
+
+## References
+1. [Distributed data parallel training in Pytorch](https://yangkky.github.io/2019/07/08/distributed-pytorch-tutorial.html)
+2. [PyTorch](https://github.com/pytorch/pytorch)
