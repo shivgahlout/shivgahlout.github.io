@@ -8,7 +8,7 @@ use_math: true
 <h3>Journals</h3>
 <ul>
    
-   <p style="font-size:20px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
+   <a style="font-size:20px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</a>
     <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
    <br>
    <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099</b></a>
@@ -17,7 +17,7 @@ use_math: true
 <!-- <center> <img src="/img/graphical_abstract.png" width="30%"></center>-->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    
- <p style="font-size:20px;margin-bottom:0.03cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
+ <a style="font-size:20px;margin-bottom:0.03cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</a>
  <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
 <br>
 <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 61, 101661, 2020</b></a>
@@ -26,7 +26,7 @@ use_math: true
   <!-- <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="20%"></center> -->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
 
-<p style="font-size:20px;margin-bottom:0.03cm;">GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images</p>
+<a style="font-size:20px;margin-bottom:0.03cm;">GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images</a>
 <a style="font-size:17px;color:rgb(74, 35, 90);">Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy</a>
 <br>
 <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 65, 101788, 2020</b></a>
