@@ -5,7 +5,7 @@ use_math: true
 ---
 
 
-<h3>Journals</h3>
+<h3>Articles</h3>
 <ul>
    
    <p style="font-size:20px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
