@@ -9,7 +9,7 @@ use_math: true
 <ul>
    
    <p style="font-size:20px;margin-bottom:0.01cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
-    <p style="font-size:15px;margin-bottom:0.01cm;"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</p>
+    <p style="font-size:15px;"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</p>
 
    
    
