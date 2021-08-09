@@ -16,6 +16,7 @@ use_math: true
    <a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf">[PDF]</a><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841521001456" style="font-size:15px;color:rgb(46, 134, 193 );">[Published]</a>
 <center> <img src="/img/graphical_abstract.png" width="50%"></center>
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
+   
  <p style="font-size:20px;margin-bottom:0.03cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
  <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
 <br>
@@ -23,6 +24,15 @@ use_math: true
 <br>
 <a href="https://arxiv.org/abs/2006.00304" style="font-size:15px;color:rgb(46, 134, 193 );">[Preprint]</a><a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101661">[Published]</a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="font-size:15px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" sstyle="font-size:15px;color:rgb(46, 134, 193 );">[Code]</a>
 <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="30%"></center>
+<hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
+
+<p style="font-size:20px;margin-bottom:0.03cm;">GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images</p>
+<a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
+<br>
+<a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 65, 101788, 2020</b></a>
+<br>
+<a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101788">[Published]</a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN//" style="font-size:15px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" sstyle="font-size:15px;color:rgb(46, 134, 193 );">[Code]</a>
+<center> <img src="/img/GCTISN_graphical_abstract.jpg" width="30%"></center>
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <!--
    <li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis," accepted, <i>Medical Image Analysis</i>, 2021.
@@ -32,11 +42,11 @@ use_math: true
 <li><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta, "SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis," <i>Medical Image Analysis</i>,Volume 61, 101661, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101661"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="color:rgba(0,0,255,255,.2);">[Blurb and BibTeX]</a><a href="https://arxiv.org/abs/2006.00304" style="color:rgba(0,0,0,255,.2);">[Preprint]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" style="color:rgba(0,0,0,255,.2);">[Code]</a></li>
 
-   <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="30%"></center> -->
+   <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="30%"></center> 
 <li>Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy, "GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images," <i>Medical Image Analysis</i>, Volume 65, 101788, 2020.
 <a href="https://doi.org/10.1016/j.media.2020.101788"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="19" height="19"> </a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN/" style="color:rgba(0,0,0,255,.2);">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" style="color:rgba(0,0,0,255,.2);">[Code]</a></li> 
    <center> <img src="/img/GCTISN_graphical_abstract.jpg" width="30%"></center>
-</ul>
+</ul> -->
 
 <h3>Conferences</h3>
 <ul>
