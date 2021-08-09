@@ -23,7 +23,7 @@ use_math: true
 <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 61, 101661, 2020</b></a>
 <br>
 <a href="https://arxiv.org/abs/2006.00304" style="font-size:15px;color:rgb(46, 134, 193 );">[Preprint]</a><a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101661">[Published]</a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="font-size:15px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" sstyle="font-size:15px;color:rgb(46, 134, 193 );">[Code]</a>
-<center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="20%"></center>
+  <!-- <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="20%"></center> -->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
 
 <p style="font-size:20px;margin-bottom:0.03cm;">GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images</p>
