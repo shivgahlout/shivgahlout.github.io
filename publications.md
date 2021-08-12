@@ -5,7 +5,7 @@ use_math: true
 ---
 
 
-<h3>Articles</h3>
+<h3>Selected Articles</h3>
 <ul>
    
    <p style="font-size:20px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
@@ -69,7 +69,7 @@ use_math: true
   
 <li> <b>Shiv  Gehlot</b>,  Akanksha  Farswan,  Anubha  Gupta  and  Ritu  Gupta,  "CT-NNBI:  Method  To  Impute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration," <i>2019 IEEE 16th International Symposium on Biomedical Imaging $(ISBI)$, Venice, Italy, 2019, pp. 1315-1318, doi: 10.1109/ISBI.2019.8759462.</i><a href="https://ieeexplore.ieee.org/abstract/document/8759462"><img border="0" alt="pdf" src="/img/pdf_logo_1.png" width="18" height="18">
 </a></li>
-</ul>-->
+</ul>
 
 <h3>Book-Chapter</h3>
 <ul>
@@ -80,6 +80,6 @@ use_math: true
 <ul>
 <li> <b>Shiv Gehlot</b>, John Deva Kumar, "The Image Segmentation Techniques," <i>International Journal ofImage, Graphics and Signal Processing (IJIGSP)</i>, Vol.9, No.2, pp.9-18, 2017.</li>
 <li> <b>Shiv Gehlot</b>, Harish Parthasarathy, Ravendra Singh, "Two-Dimensional Parameters Estimation," <i>International  Journal  of  Image,  Graphics  and  Signal  Processing  (IJIGSP)</i>, Vol.8,  No.9,  pp.1-9, 2016.</li>
-</ul>
+</ul>-->
 
 
