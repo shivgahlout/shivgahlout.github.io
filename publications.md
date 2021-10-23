@@ -10,7 +10,7 @@ use_math: true
       <p style="font-size:20px;margin-bottom:0.03cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
     <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
-   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging (MLMI), MICCAI Workshop, 2021</b></a>
+   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:15px;color:rgb(46, 134, 193 );">[Published]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
