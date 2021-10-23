@@ -17,7 +17,7 @@ use_math: true
    <p style="font-size:20px;margin-bottom:0.03cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
     <a style="font-size:17px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
    <br>
-   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging (MLMI), MICCAI Workshop, 2021</b></a>
+   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:15px;color:rgb(46, 134, 193 );">[Published]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
