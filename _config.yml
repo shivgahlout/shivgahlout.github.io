@@ -25,7 +25,7 @@ navbar-links:
   #About Me: "aboutme"
   Publications: "publications"
   Blog: "blog"
-  Challenges Organized: "Challenges Organized"
+  Challenges Organized: "And More"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
@@ -79,7 +79,7 @@ social-network-links:
   #twitter: gehlotbshiv
   
 #  reddit: yourname
-#  linkedin: daattali
+linkedin: "https://www.linkedin.com/in/shiv-gehlot-771450211/"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -99,7 +99,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://shivgahlout.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
