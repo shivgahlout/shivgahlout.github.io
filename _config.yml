@@ -79,7 +79,7 @@ social-network-links:
   #twitter: gehlotbshiv
   
 #  reddit: yourname
-linkedin: "https://www.linkedin.com/in/shiv-gehlot-771450211/"
+  linkedin: in/shiv-gehlot-771450211
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -104,7 +104,7 @@ url-pretty: "https://shivgahlout.github.io/"  # eg. "deanattali.com/beautiful-je
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+#gtag: "UA-157995297-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-157995297-1"
