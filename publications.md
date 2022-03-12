@@ -12,21 +12,21 @@ use_math: true
    <br>
    <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
-   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:15px;color:rgb(46, 134, 193 );">[Published Version]</a>
+   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
-   <p style="font-size:20px;margin-bottom:0.03cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
-    <a style="font-size:17px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
+   <p style="font-size:15px;margin-bottom:0.03cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
+    <a style="font-size:12px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
    <br>
-   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
-   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:15px;color:rgb(46, 134, 193 );">[Published]</a>
+   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
-   <p style="font-size:20px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
-    <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
+   <p style="font-size:15px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
+    <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
    <br>
-   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099, 2021</b></a>
    <br>
-   <a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf">[PDF]</a><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841521001456" style="font-size:15px;color:rgb(46, 134, 193 );">[Published]</a>
+   <a style="font-size:12px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf">[PDF]</a><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841521001456" style="font-size:12px;color:rgb(46, 134, 193 );">[Publication Link]</a>
 <!-- <center> <img src="/img/graphical_abstract.png" width="30%"></center>-->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
  <p style="font-size:20px;margin-bottom:0.03cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
