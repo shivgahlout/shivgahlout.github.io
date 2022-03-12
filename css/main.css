@@ -799,6 +799,10 @@ li{
   margin: 10px 0;
 }
 
+br{
+  margin: 0px 0;
+}
+
 #demobox{
  background-color: rgba(0, 0, 225, 0.1);
   padding: 0px ;
