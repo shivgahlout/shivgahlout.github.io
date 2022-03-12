@@ -25,7 +25,7 @@ navbar-links:
   #About Me: "aboutme"
   Publications: "publications"
   Blog: "blog"
-  Challenges Organized: "And More"
+  And More: "And More"
   #Resources:
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
