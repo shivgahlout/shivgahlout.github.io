@@ -31,7 +31,7 @@ use_math: true
 <br>
 <a style="font-size:11px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101788">[Publication Link]</a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN//" style="font-size:11px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" style="font-size:11px;color:rgb(46, 134, 193 );">[Code]</a>
 </ul>
-
+<hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">  
 <h4>Conferences</h4>
 <ul>
       <p style="font-size:15px;margin-bottom:0.00cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
