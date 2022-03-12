@@ -10,39 +10,39 @@ use_math: true
       <p style="font-size:15px;margin-bottom:0.03cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
     <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
+   <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <p style="font-size:15px;margin-bottom:0.03cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
     <a style="font-size:12px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
+   <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <p style="font-size:15px;margin-bottom:0.03cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
     <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099, 2021</b></a>
+   <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099, 2021</b></a>
    <br>
    <a style="font-size:12px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf">[PDF]</a><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841521001456" style="font-size:12px;color:rgb(46, 134, 193 );">[Publication Link]</a>
 <!-- <center> <img src="/img/graphical_abstract.png" width="30%"></center>-->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
- <p style="font-size:20px;margin-bottom:0.03cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
- <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
+ <p style="font-size:15px;margin-bottom:0.03cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
+ <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
 <br>
-<a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 61, 101661, 2020</b></a>
+<a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 61, 101661, 2020</b></a>
 <br>
-<a href="https://arxiv.org/abs/2006.00304" style="font-size:15px;color:rgb(46, 134, 193 );">[Preprint]</a><a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101661">[Published]</a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="font-size:15px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" sstyle="font-size:15px;color:rgb(46, 134, 193 );">[Code]</a>
+<a href="https://arxiv.org/abs/2006.00304" style="font-size:12px;color:rgb(46, 134, 193 );">[Preprint]</a><a style="font-size:12px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101661">[Publication Link]</a><a href="https://shivgahlout.github.io/2020-02-19-SDCT-AuxNet/" style="font-size:12px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/SDCT-AuxNet-theta-DCT-Augmented-Stain-Deconvolutional-CNN-with-Auxiliary-Classifier-for-Cancer" sstyle="font-size:12px;color:rgb(46, 134, 193 );">[Code]</a>
   <!-- <center> <img src="/img/SDCT_AuxNet_graphical_abstract.png" width="20%"></center> -->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
-<p style="font-size:20px;margin-bottom:0.03cm;">GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images</p>
-<a style="font-size:17px;color:rgb(74, 35, 90);">Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy</a>
+<p style="font-size:15px;margin-bottom:0.03cm;">GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images</p>
+<a style="font-size:12px;color:rgb(74, 35, 90);">Anubha Gupta, Rahul Duggal, <b>Shiv Gehlot</b>, Ritu Gupta, Anvit Mangal, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy</a>
 <br>
-<a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 65, 101788, 2020</b></a>
+<a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 65, 101788, 2020</b></a>
 <br>
-<a style="font-size:15px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101788">[Published]</a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN//" style="font-size:15px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" sstyle="font-size:15px;color:rgb(46, 134, 193 );">[Code]</a>
+<a style="font-size:12px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101788">[Publication Link]</a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN//" style="font-size:12px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" sstyle="font-size:12px;color:rgb(46, 134, 193 );">[Code]</a>
  <!--<center> <img src="/img/GCTISN_graphical_abstract.jpg" width="20%"></center>-->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <!--
