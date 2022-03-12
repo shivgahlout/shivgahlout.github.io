@@ -7,12 +7,12 @@ use_math: true
 
 <h3>Selected Articles</h3>
 <ul>
-      <p style="font-size:20px;margin-bottom:0.03cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
-    <a style="font-size:17px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
+      <p style="font-size:15px;margin-bottom:0.03cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
+    <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
-   <a style="font-size:16px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
-   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:15px;color:rgb(46, 134, 193 );">[Published]</a>
+   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:15px;color:rgb(46, 134, 193 );">[Published Version]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <p style="font-size:20px;margin-bottom:0.03cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
     <a style="font-size:17px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
