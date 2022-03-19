@@ -46,7 +46,7 @@ use_math: true
    <br>
    <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
    <br>
-   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
+   <a href="https://arxiv.org/pdf/2109.07029.pdf" style="font-size:11px;color:rgb(46, 134, 193 );">[PDF]</a><a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <p style="font-size:15px;margin-bottom:0.03cm;">EDNFC-NET: Convolutional Neural Network withNested Feature Concatenation for Nuclei-Instance Segmentation</p>
  <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
