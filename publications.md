@@ -8,7 +8,7 @@ use_math: true
 
 <h4>Journals</h4>
 <ul>
-   <p style="font-size:15px;margin-bottom:0.00cm;;margin-top:-0.5cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
+   <p style="font-size:15px;margin-bottom:0.00cm;;margin-top:0.0cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
     <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
    <br>
    <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099, 2021</b></a>
@@ -34,7 +34,7 @@ use_math: true
  
 <h4>Conferences</h4>
 <ul>
-      <p style="font-size:15px;margin-bottom:0.00cm;;margin-top:-0.5cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
+      <p style="font-size:15px;margin-bottom:0.00cm;;margin-top:0.0cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
     <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
    <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
