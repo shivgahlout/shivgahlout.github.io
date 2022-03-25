@@ -16,7 +16,7 @@ use_math: true
    <a style="font-size:11px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf">[PDF]</a><a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841521001456" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a>
 <!-- <center> <img src="/img/graphical_abstract.png" width="30%"></center>-->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
- <p style="font-size:15px;margin-bottom:0.00cm;;margin-top:-5cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
+ <p style="font-size:15px;margin-bottom:0.00cm;;margin-top:-0.5cm;">SDCT-AuxNetθ: DCT Augmented Stain Deconvolutional CNN with Auxiliary Classifier for Cancer Diagnosis</p>
  <a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
 <br>
 <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 61, 101661, 2020</b></a>
