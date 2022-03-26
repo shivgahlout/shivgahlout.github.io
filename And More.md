@@ -20,7 +20,7 @@ In this challenge, a dataset of cells with labels (normal versus malignant) was 
 identify normal cells from leukemic blasts (malignant cells). These cells were segmented from the images after stain normalization. 
 The  methods developed by participants were compared using weighted F1 performance metric. The leaderboard of this challenge is till open and submssions can be made to evaluate the performance on the test set. \
 [[Challenge Website]](https://competitions.codalab.org/competitions/20395)[[Challenge Dataset]](https://wiki.cancerimagingarchive.net/display/Public/C_NMC_2019+Dataset%3A+ALL+Challenge+dataset+of+ISBI+2019)
-[[Challenge Proceddings]](https://link.springer.com/book/10.1007%2F978-981-15-0798-4)
+[[Challenge Proceedings]](https://link.springer.com/book/10.1007%2F978-981-15-0798-4)
 
 
 
