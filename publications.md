@@ -30,6 +30,22 @@ use_math: true
 <a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 65, 101788, 2020</b></a>
 <br>
 <a style="font-size:11px;color:rgb(46, 134, 193 );" href="https://doi.org/10.1016/j.media.2020.101788">[Publication Link]</a><a href="https://shivgahlout.github.io/2020-08-08-GCTISN//" style="font-size:11px;color:rgb(46, 134, 193 );">[Blurb and BibTeX]</a><a href="https://github.com/shivgahlout/GCTI-SN" style="font-size:11px;color:rgb(46, 134, 193 );">[Code]</a>
+
+ <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
+<p style="font-size:15px;margin-bottom:0.00cm;;margin-top:-0.5cm;">WTL-I: Mutual Information-Based Wavelet Transform Learning for Hyperspectral Imaging</p>
+<a style="font-size:12px;color:rgb(74, 35, 90);"><b>Shiv Gahlot</b>, Naushad Ansari, and Anubha Gupta</a>
+<br>
+<a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Frontiers in Signal Processing, Volume 2, 2022</b></a>
+<br>
+<a style="font-size:11px;color:rgb(46, 134, 193 );" href="https://www.frontiersin.org/articles/10.3389/frsip.2022.854207/full">[Publication Link]</a>
+ 
+ <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
+<p style="font-size:15px;margin-bottom:0.00cm;;margin-top:-0.5cm;">C-NMC: B-Lineage Acute Lymphoblastic Leukaemia: A Blood Cancer Dataset</p>
+<a style="font-size:12px;color:rgb(74, 35, 90);">Ritu Gupta, <b>Shiv Gehlot</b>, and Anubha Gupta</a>
+<br>
+<a style="font-size:12px;color:rgb(66, 73, 73 );"><b>Medical Engineering & Physics, Volume 103, 103793, 2022</b></a>
+<br>
+<a style="font-size:11px;color:rgb(46, 134, 193 );" href="https://linkinghub.elsevier.com/retrieve/pii/S1350453322000431">[Publication Link]</a>
 </ul>
  
 <h4>Conferences</h4>
