@@ -53,14 +53,14 @@ use_math: true
       <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:0.0cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> International Conference on Medical Image Computing and Computer Assisted Intervention $(MICCAI)$ Workshop: Machine Learning in Medical Imaging, 2021</b></a>
    <br>
    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:-0.5cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Machine Learning in Medical Imaging $(MLMI)$, MICCAI Workshop, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> International Conference on Medical Image Computing and Computer Assisted Intervention $(MICCAI)$ Workshop: Machine Learning in Medical Imaging, 2021</b></a>
    <br>
    <a href="https://arxiv.org/pdf/2109.07029.pdf" style="font-size:14px;color:rgb(46, 134, 193 );">[PDF]</a><a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
@@ -69,7 +69,7 @@ use_math: true
 <br>
 <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> IEEE International Conference on Acoustics, Speech and Signal Processing $(ICASSP)$, Barcelona, Spain, 2020,  pp. 1389-1393</b></a>
 <br>
-<a href="https://ieeexplore.ieee.org/document/9053633" style="font-size:11px;color:rgb(46, 134, 193 );">[Publication Link]</a><a style="font-size:14px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/2020-05-14-EDNFC-Net/">[Blurb and BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/9053633" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a><a style="font-size:14px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/2020-05-14-EDNFC-Net/">[Blurb and BibTeX]</a>
 <!-- <center> <img src="/img/graphical_abstract.png" width="30%"></center>-->
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">  
 <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:-0.5cm;">CT-NNBI:  Method  To  Impute Gene Expression Data Using DCT Based Sparsity and Nuclear Norm Constraint with Split Bregman Iteration</p>
