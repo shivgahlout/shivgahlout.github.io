@@ -48,6 +48,13 @@ use_math: false
  
 <h4>Conferences</h4>
 <ul>
+    <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:0.0cm;">FUSION: Fully Unsupervised Test-Time Stain Adaptation via Fused Normalization Statistics</p>
+    <a style="font-size:14px;color:rgb(74, 35, 90);">Nilanjan Chattopadhyay*, <b>Shiv Gehlot*</b>, and Nitin Singhal (*Equal contributations in alphabetical order)</a>
+   <br>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> IEEE European Conference on Computer Vision (ECCV) 2022 Workshop: AI-enabled medical image analysis (AIMIA), 2022</b></a>
+   <br>
+   <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
+ <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
       <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:0.0cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
