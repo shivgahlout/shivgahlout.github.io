@@ -8,7 +8,7 @@ use_math: false
 
 <h4>Journals</h4>
 <ul>
-   <p style="font-size:17px;margin-bottom:-0.5cm;;margin-top:-0.5cm;">SegPC-2021: A challenge & dataset on segmentation of Multiple Myeloma plasma cells from microscopic images</p>
+   <p style="font-size:17px;margin-bottom:0.5cm;;margin-top:-0.7cm;">SegPC-2021: A challenge & dataset on segmentation of Multiple Myeloma plasma cells from microscopic images</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);">Anubha Gupta, <b>Shiv Gehlot</b>, and Shubham Goswami et al.</a>
    <br>
    <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 83, 102677, 2023</b></a>
@@ -16,7 +16,7 @@ use_math: false
    <!-- <a style="font-size:14px;color:rgb(46, 134, 193 );" href="https://shivgahlout.github.io/img/MM_main_manuscript.pdf">[PDF]</a>-->
    <a href="https://authors.elsevier.com/c/1g5uD_UzlO11Hn" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
    <hr style="width:10%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
-   <p style="font-size:17px;margin-bottom:0.0cm;;margin-top:0.0cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
+   <p style="font-size:17px;margin-bottom:0.0cm;;margin-top:-0.5cm;">A CNN-based Unified Framework Utilizing Projection Loss in Unison with Label Noise Handling for Multiple Myeloma Cancer Diagnosis</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, Anubha Gupta, and Ritu Gupta</a>
    <br>
    <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 72, 102099, 2021</b></a>
