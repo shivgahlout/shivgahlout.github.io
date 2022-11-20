@@ -8,7 +8,7 @@ use_math: false
 
 <h4>Journals</h4>
 <ul>
-   <p style="font-size:17px;margin-bottom:0.5cm;;margin-top:0.0cm;">SegPC-2021: A challenge & dataset on segmentation of Multiple Myeloma plasma cells from microscopic images</p>
+   <p style="font-size:17px;margin-bottom:0.0cm;;margin-top:0.0cm;">SegPC-2021: A challenge & dataset on segmentation of Multiple Myeloma plasma cells from microscopic images</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);">Anubha Gupta, <b>Shiv Gehlot</b>, and Shubham Goswami et al.</a>
    <br>
    <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>Medical Image Analysis, Volume 83, 102677, 2023</b></a>
