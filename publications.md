@@ -59,21 +59,21 @@ use_math: false
     <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:0.0cm;">FUSION: Fully Unsupervised Test-Time Stain Adaptation via Fused Normalization Statistics</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);">Nilanjan Chattopadhyay*, <b>Shiv Gehlot*</b>, and Nitin Singhal (*Equal contributations in alphabetical order)</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> IEEE European Conference on Computer Vision (ECCV) 2022 Workshop: AI-enabled medical image analysis (AIMIA), 2022</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> IEEE European Conference on Computer Vision (ECCV) 2022: AI-enabled medical image analysis (AIMIA), 2022</b></a>
    <br>
    <a href="https://arxiv.org/abs/2208.14206" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
  <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
  <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:-0.5cm;">Self-supervision Based Dual-Transformation Learning for Stain Normalization, Classification and Segmentation</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);"><b>Shiv Gehlot</b>, and Anubha Gupta</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) Workshop: Machine Learning in Medical Imaging, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI): Machine Learning in Medical Imaging, 2021</b></a>
    <br>
    <a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_49" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
  <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
    <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:-0.5cm;">Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection</p>
     <a style="font-size:14px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, Michael B. Gotway, and Jianming Liang</a>
    <br>
-   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) Workshop: Machine Learning in Medical Imaging, 2021</b></a>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b> International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI): Machine Learning in Medical Imaging, 2021</b></a>
    <br>
    <a href="https://arxiv.org/pdf/2109.07029.pdf" style="font-size:14px;color:rgb(46, 134, 193 );">[PDF]</a><a href="https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
 <hr style="width:50%;text-align:left;margin-left:0;color:gray;background-color:rgb(23, 32, 42)">
