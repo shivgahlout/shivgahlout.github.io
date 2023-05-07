@@ -92,4 +92,15 @@ use_math: false
 <br>
 <a href="https://ieeexplore.ieee.org/abstract/document/8759462" style="font-size:14px;color:rgb(46, 134, 193 );">[Publication Link]</a>
   </ul>
+
+<h4>Patents</h4>
+<ul>
+    <p style="font-size:17px;margin-bottom:0.00cm;;margin-top:0.0cm;">Systems, methods, and apparatuses for systematically determining an optimal approach for the computer-aided diagnosis of a pulmonary embolism</p>
+    <a style="font-size:14px;color:rgb(74, 35, 90);">Nahid Ul Islam, <b>Shiv Gehlot</b>, Zongwei Zhou, and Jianming Liang </a>
+   <br>
+   <a style="font-size:14px;color:rgb(66, 73, 73 );"><b>US Patent App. 17/944,881, 2023</b></a>
+   <br>
+   <a href="https://patentimages.storage.googleapis.com/f6/57/58/f4c5ca55d145f0/US20230081305A1.pdf" style="font-size:14px;color:rgb(46, 134, 193 );">[Patent Link]</a>
+   <br>
+  </ul>
  
