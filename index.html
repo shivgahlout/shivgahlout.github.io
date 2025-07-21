@@ -1,1 +1,266 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shiv Gehlot – AI Researcher</title>
+
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'DM Sans', sans-serif;
+      background: linear-gradient(to right, #fdfdfb, #d6d6d6);
+      color: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 3rem;
+      align-items: flex-start;
+      padding: 2rem;
+      max-width: 1100px;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .profile-card {
+      flex: 1;
+      max-width: 350px;
+      text-align: center;
+      animation: fadeSlideLeft 1s ease forwards;
+    }
+
+    .profile-card img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .profile-card h1 {
+      font-size: 1.8rem;
+      margin: 0.3rem 0 0.2rem;
+    }
+
+    .profile-card p.title {
+      font-size: 1rem;
+      color: #555;
+      margin: 0;
+    }
+
+    .profile-card p.bio {
+      font-size: 0.95rem;
+      color: #333;
+      margin-top: 0.8rem;
+      line-height: 1.4;
+    }
+
+    .links a {
+      margin: 0 0.4rem;
+      font-size: 1.5rem;
+      color: #333;
+      text-decoration: none;
+      transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    .links a:hover {
+      transform: scale(1.2);
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .links a[title="Google Scholar"]:hover {
+      color: #4285F4;
+    }
+
+    .links a[title="GitHub"]:hover i {
+      color: #0366d6;
+    }
+
+    .links a[title="LinkedIn"]:hover {
+      color: #0077B5;
+    }
+
+    .publications {
+      flex: 2;
+      animation: fadeSlideRight 1s ease forwards;
+      max-width: 650px;
+    }
+
+    .publications h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #374785;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .publications ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .publications li {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s ease forwards;
+      position: relative;
+      padding-left: 2rem;
+      border-radius: 6px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .publications li:hover {
+      background-color: rgba(0, 0, 0, 0.03);
+      transform: scale(1.01);
+    }
+
+    .publications li::before {
+      content: "📄";
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: transform 0.3s ease;
+    }
+
+    .publications li:hover::before {
+      transform: scale(1.1);
+    }
+
+    .publications li:nth-child(1) { animation-delay: 0.2s; }
+    .publications li:nth-child(2) { animation-delay: 0.4s; }
+    .publications li:nth-child(3) { animation-delay: 0.6s; }
+
+    .authors {
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .authors .me {
+      font-weight: bold;
+      color: #9c1de7;
+    }
+
+    .venue {
+  font-weight: bold;
+  color: #1f4e79;
+  font-size: 0.9rem;
+  /* text-transform: lowercase; */
+  letter-spacing: 0.5px;
+}
+
+
+    .equal-note {
+      font-size: 0.85rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    .publications a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .publications a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeSlideLeft {
+      0% { opacity: 0; transform: translateX(-50px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeSlideRight {
+      0% { opacity: 0; transform: translateX(50px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile-card" data-aos="fade-right">
+      <img src="https://media.licdn.com/dms/image/v2/C4D03AQEjrjZEIFgHSg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1646058705680?e=1755734400&v=beta&t=iU4ZG7OKu_ZipoNRDzjUyl-s6sEAatg64WDE971g4O0" alt="Shiv Gehlot" />
+      <h1>Shiv Gehlot</h1>
+      <p class="title">Senior AI Researcher, Dolby Laboratories</p>
+      <p class="bio">Research Areas: Computer Vision, Multimodal Learning, Generative AI</p>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://github.com/shivgahlout" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shivgehlot/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="publications" data-aos="fade-left">
+      <h2>Recent Publications</h2>
+      <ul>
+        <li title="Shadow Control for Portrait Generation in Text-to-Image Diffusion Models.">
+          <span class="authors">
+            Haoming Cai, Tsung-Wei Huang, <span class="me">Shiv Gehlot</span>, Brandon Y. Feng, Sachin Sha, Guan-Ming Su, Christopher Metzler
+          </span><br/>
+          <strong>"Parametric Shadow Control for Portrait Generation in Text-to-Image Diffusion Models."</strong><br/>
+          <span class="venue">IEEE/CVF ICCV 2025</span><br/>
+          <!-- <span class="equal-note">*Equal contribution</span><br/> -->
+          <a href="https://arxiv.org/pdf/2503.21943" target="_blank">[arXiv]</a>
+        </li>
+        <li title="Stable generative face video coding">
+          <span class="authors">
+            <span class="me">Shiv Gehlot</span>, Guan-Ming Su, Peng Yin, Sean McCarthy,  Gary J. Sullivan
+          </span><br/>
+          <strong>"A Generative Face Video Coding Framework with Disentangled and Consistent Background."</strong><br/>
+          <span class="venue"> IEEE ICIP 2025</span><br/>
+          <!-- <a href="https://arxiv.org/abs/0000.00001" target="_blank">[arXiv]</a> -->
+        </li>
+        <li title="Diffusion model based zero-shot restoration">
+          <span class="authors">
+            Dae Yeol Lee*, <span class="me">Shiv Gehlot</span>*, Lijun Zhang,  Guan-Ming Su
+          </span><br/>
+          <strong>"SD-URM: Stable-Diffusion based Zero-Shot Universal Restoration Model."</strong><br/>
+          <span class="venue">IEEE ICIP Workshops 2025</span><br/>
+          <span class="equal-note">*Equal contribution</span><br/>
+          <!-- <a href="https://arxiv.org/abs/0000.00002" target="_blank">[arXiv]</a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
