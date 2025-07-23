@@ -262,5 +262,31 @@
   <script>
     AOS.init({ duration: 1000, once: true });
   </script>
+  <div class="visitor-counter-badge">
+  <img src="https://hits.sh/shivgahlout.github.io.svg?style=flat-square&color=999999&label=visits&labelColor=ffffff" alt="Visitor Counter" />
+</div>
+
+<style>
+.visitor-counter-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255,255,255,0.8);
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+.visitor-counter-badge img {
+  vertical-align: middle;
+  height: 18px;
+  opacity: 0.8;
+}
+.visitor-counter-badge:hover img {
+  opacity: 1;
+}
+</style>
+
 </body>
 </html>
