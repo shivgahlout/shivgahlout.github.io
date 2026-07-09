@@ -1,325 +1,258 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shiv Gehlot</title>
 
-  <!-- Fonts and Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <style>
+    :root {
+      --bg: #fbfaf8;
+      --text: #222;
+      --muted: #60656f;
+      --accent: #1f4e79;
+      --line: rgba(0,0,0,0.12);
+    }
+
+    * { box-sizing: border-box; }
+
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'DM Sans', sans-serif;
-      background: linear-gradient(to right, #fdfdfb, #d6d6d6);
-      color: #222;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      font-family: "DM Sans", sans-serif;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(31,78,121,0.06), transparent 32%),
+        linear-gradient(135deg, #fdfdfb, #efede8);
+      color: var(--text);
       min-height: 100vh;
     }
 
-    .container {
+    .highlights {
+    margin-top: 42px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.12);
+}
+
+.highlights h2 {
+    margin: 0 0 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f4e79;
+    letter-spacing: 0.04em;
+}
+
+.highlight-item {
+    margin-bottom: 22px;
+}
+
+.highlight-item:last-child {
+    margin-bottom: 0;
+}
+
+.highlight-meta {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 4px;
+}
+
+.highlight-title {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #222;
+}
+
+    .page {
+      max-width: 780px;
+      margin-left: 12vw;
+      padding: 76px 24px 36px;
+    }
+
+    .intro {
       display: flex;
-      gap: 3rem;
-      align-items: flex-start;
-      padding: 2rem;
-      max-width: 1100px;
-      width: 100%;
-      flex-wrap: wrap;
+      align-items: center;
+      gap: 28px;
     }
 
-    .profile-card {
-      flex: 1;
-      max-width: 350px;
-      text-align: center;
-      animation: fadeSlideLeft 1s ease forwards;
-    }
-
-    .profile-card img {
-      width: 140px;
-      height: 140px;
+    .photo {
+      width: 118px;
+      height: 118px;
       border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 1rem;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      animation: float 3s ease-in-out infinite;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.11);
+      flex: 0 0 auto;
     }
 
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
-    }
-
-    .profile-card h1 {
-      font-size: 1.8rem;
-      margin: 0.3rem 0 0.2rem;
-    }
-
-    .profile-card p.title {
-      font-size: 1rem;
-      color: #555;
+    h1 {
       margin: 0;
+      font-size: 2rem;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
     }
 
-    .profile-card p.bio {
+    .title {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .bio {
+      margin: 10px 0 0;
       font-size: 0.95rem;
       color: #333;
-      margin-top: 0.8rem;
-      line-height: 1.4;
+      line-height: 1.45;
+    }
+
+    .links {
+      display: flex;
+      gap: 14px;
+      margin-top: 14px;
     }
 
     .links a {
-      margin: 0 0.4rem;
-      font-size: 1.5rem;
       color: #333;
-      text-decoration: none;
-      transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+      font-size: 1.25rem;
+      transition: color 0.2s ease, transform 0.2s ease;
     }
 
     .links a:hover {
-      transform: scale(1.2);
-      text-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+      color: var(--accent);
+      transform: translateY(-2px);
     }
 
-    .links a[title="Google Scholar"]:hover {
-      color: #4285F4;
+    .section {
+      margin-top: 38px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
     }
 
-    .links a[title="GitHub"]:hover i {
-      color: #0366d6;
+    .section h2 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      color: var(--accent);
+      letter-spacing: 0.04em;
     }
 
-    .links a[title="LinkedIn"]:hover {
-      color: #0077B5;
-    }
-
-    .publications {
-      flex: 2;
-      animation: fadeSlideRight 1s ease forwards;
-      max-width: 650px;
-    }
-
-    .publications h2 {
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
-      color: #374785;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.3rem;
-    }
-
-    .publications ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    .publications li {
-      margin-bottom: 1.5rem;
-      line-height: 1.6;
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeInUp 0.6s ease forwards;
-      position: relative;
-      padding-left: 2rem;
-      border-radius: 6px;
-      transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-
-    .publications li:hover {
-      background-color: rgba(0, 0, 0, 0.03);
-      transform: scale(1.01);
-    }
-
-    .publications li::before {
-      content: "📄";
-      position: absolute;
-      left: 0;
-      top: 0;
-      transition: transform 0.3s ease;
-    }
-
-    .publications li:hover::before {
-      transform: scale(1.1);
-    }
-
-    .publications li:nth-child(1) { animation-delay: 0.2s; }
-    .publications li:nth-child(2) { animation-delay: 0.4s; }
-    .publications li:nth-child(3) { animation-delay: 0.6s; }
-
-    .authors {
-      color: #333;
+    .news {
+      margin: 0;
+      max-width: 680px;
       font-size: 0.95rem;
+      line-height: 1.55;
+      color: #333;
     }
 
-    .authors .me {
-      font-weight: bold;
-      color: #9c1de7;
+    .footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 0.8rem;
     }
 
-    .venue {
-  font-weight: bold;
-  color: #1f4e79;
-  font-size: 0.9rem;
-  /* text-transform: lowercase; */
-  letter-spacing: 0.5px;
-}
-
-
-    .equal-note {
-      font-size: 0.85rem;
-      color: #666;
-      font-style: italic;
+    .visits {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
     }
 
-    .publications a {
-      color: #0066cc;
-      text-decoration: none;
+    .visits img {
+      height: 17px;
+      opacity: 0.78;
     }
 
-    .publications a:hover {
-      text-decoration: underline;
-    }
-
-    @keyframes fadeSlideLeft {
-      0% { opacity: 0; transform: translateX(-50px); }
-      100% { opacity: 1; transform: translateX(0); }
-    }
-
-    @keyframes fadeSlideRight {
-      0% { opacity: 0; transform: translateX(50px); }
-      100% { opacity: 1; transform: translateX(0); }
-    }
-
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
+    @media (max-width: 700px) {
+      .page {
+        margin-left: 0;
+        padding: 44px 22px 30px;
       }
-    }
 
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        align-items: center;
+      .intro {
+        align-items: flex-start;
+      }
+
+      .photo {
+        width: 92px;
+        height: 92px;
+      }
+
+      h1 {
+        font-size: 1.65rem;
       }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="profile-card" data-aos="fade-right">
-      <img src="img/profile_pic.jpeg" alt="Shiv Gehlot" />
-      <h1>Shiv Gehlot</h1>
-      <p class="title">Staff Researcher, Dolby Laboratories</p>
-      <p class="bio">Research Areas: Computer Vision, Multimodal Learning, Generative AI</p>
-      <div class="links">
-        <a href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://github.com/shivgahlout" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/shivgehlot/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <main class="page">
+    <section class="intro">
+      <img class="photo" src="img/profile_pic.jpeg" alt="Shiv Gehlot" />
+
+      <div>
+        <h1>Shiv Gehlot</h1>
+        <p class="title">Staff Researcher, Dolby Laboratories</p>
+        <p class="bio">Research Areas: Computer Vision, Multimodal Learning, Generative AI</p>
+
+        <nav class="links">
+          <a href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+          <a href="https://github.com/shivgahlout" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/shivgehlot/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </nav>
       </div>
+    </section>
+
+    <!-- <section class="section">
+      <h2>Latest</h2>
+      <p class="news">
+        Our paper <strong>“A Generative Face Video Coding Framework with Disentangled and Consistent Background”</strong>
+        was accepted to IEEE ICIP 2025 and recognized with <strong>Spotlight</strong> and
+        <strong>Industry Best Paper Award</strong>.
+      </p>
+    </section> -->
+
+    <section class="highlights">
+
+    <h2>Highlights</h2>
+
+    <div class="highlight-item">
+        <div class="highlight-meta">
+            Tutorial · ICVGIP 2025
+        </div>
+
+        <div class="highlight-title">
+            Advances and Challenges in Real-World Video Restoration
+        </div>
     </div>
 
-    <div class="publications" data-aos="fade-left">
-      <h2>Recent Publications</h2>
-      <ul>
-         <li title="Cross-Video Motion Alignment and Video Synchronization for Multi-Video 4D Gaussian Splatting.">
-          <span class="authors">
-            Yonghan Lee, Tsung-Wei Huang, <span class="me">Shiv Gehlot</span>, Jaehoon Choi, Guan-Ming Su, Dinesh Manocha
-          </span><br/>
-          <strong>"SyncTrack4D: Cross-Video Motion Alignment and Video Synchronization for Multi-Video 4D Gaussian Splatting."</strong><br/>
-          <span class="venue">IEEE/CVF CVPR Findings 2026</span><br/>
-          <a href="https://arxiv.org/pdf/2512.04315" target="_blank">[arXiv]</a>
-        </li>
-        <li title="Enhanced Generative Machine Listener.">
-          <span class="authors">
-            Vishnu Raj, Gouthaman KV, <span class="me">Shiv Gehlot</span>, Lars Villemoes, Arijit Biswas
-          </span><br/>
-          <strong>"Enhanced Generative Machine Listener."</strong><br/>
-          <span class="venue">IEEE ICASSP 2026</span><br/>
-        </li>
-        <li title="Temporally consistent video compression artifact reduction through diffusion models">
-          <span class="authors">
-            <span class="me">Shiv Gehlot</span>, Guan-Ming Su
-          </span><br/>
-          <strong>"LViCAR: Diffusion Models for Perceptual Quality Enhancement in Video Compression Artifact Reduction."</strong><br/>
-          <span class="venue">ACMMM Workshops 2025</span><br/>
-        </li>
-        <li title="Shadow Control for Portrait Generation in Text-to-Image Diffusion Models.">
-          <span class="authors">
-            Haoming Cai, Tsung-Wei Huang, <span class="me">Shiv Gehlot</span>, Brandon Y. Feng, Sachin Sha, Guan-Ming Su, Christopher Metzler
-          </span><br/>
-          <strong>"Parametric Shadow Control for Portrait Generation in Text-to-Image Diffusion Models."</strong><br/>
-          <span class="venue">IEEE/CVF ICCV 2025</span><br/>
-          <!-- <span class="equal-note">*Equal contribution</span><br/> -->
-          <a href="https://arxiv.org/pdf/2503.21943" target="_blank">[arXiv]</a>
-        </li>
-        <li title="Stable generative face video coding">
-          <span class="authors">
-            <span class="me">Shiv Gehlot</span>, Guan-Ming Su, Peng Yin, Sean McCarthy,  Gary J. Sullivan
-          </span><br/>
-          <strong>"A Generative Face Video Coding Framework with Disentangled and Consistent Background."</strong><br/>
-          <span class="venue"> IEEE ICIP 2025</span><span class="spotlight-badge">Spotlight</span><span class="spotlight-badge">Industry Best Paper Award</span><br/>
-          <!-- <a href="https://arxiv.org/abs/0000.00001" target="_blank">[arXiv]</a> -->
-        </li>
-        <li title="Diffusion model based zero-shot restoration">
-          <span class="authors">
-            Dae Yeol Lee*, <span class="me">Shiv Gehlot</span>*, Lijun Zhang,  Guan-Ming Su
-          </span><br/>
-          <strong>"SD-URM: Stable-Diffusion based Zero-Shot Universal Restoration Model."</strong><br/>
-          <span class="venue">IEEE ICIP Workshops 2025</span><br/>
-          <span class="equal-note">*Equal contribution</span><br/>
-          <!-- <a href="https://arxiv.org/abs/0000.00002" target="_blank">[arXiv]</a> -->
-        </li>
-      </ul>
+    <div class="highlight-item">
+        <div class="highlight-meta">
+            Speaker · ICVGIP 2025
+        </div>
+
+        <div class="highlight-title">
+            Industrial Session
+        </div>
     </div>
-  </div>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({ duration: 1000, once: true });
-  </script>
-  <div class="visitor-counter-badge">
-  <img src="https://hits.sh/shivgahlout.github.io.svg?style=flat-square&color=999999&label=visits&labelColor=ffffff" alt="Visitor Counter" />
-</div>
+</section>
 
-<style>
-.visitor-counter-badge {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: rgba(255,255,255,0.8);
-  padding: 4px 8px;
-  border-radius: 8px;
-  font-size: 0.75rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  z-index: 999;
-}
-.visitor-counter-badge img {
-  vertical-align: middle;
-  height: 18px;
-  opacity: 0.8;
-}
-.visitor-counter-badge:hover img {
-  opacity: 1;
-}
-</style>
-<style>
-  .spotlight-badge {
-    background-color: #fef3c7;
-    color: #92400e;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    margin-left: 6px;
-  }
-</style>
-
+    <footer class="footer">
+      <span>Last updated · 2026</span>
+      <span class="visits">
+        <i class="fa-regular fa-eye"></i>
+        <img src="https://hits.sh/shivgahlout.github.io.svg?style=flat-square&color=999999&label=&labelColor=ffffff" alt="Visits" />
+      </span>
+    </footer>
+  </main>
 </body>
 </html>
