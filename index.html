@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiv Gehlot</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    :root {
+      --bg: #fbfaf8;
+      --text: #222;
+      --muted: #60656f;
+      --accent: #1f4e79;
+      --line: rgba(0,0,0,0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(31,78,121,0.06), transparent 32%),
+        linear-gradient(135deg, #fdfdfb, #efede8);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .highlights {
+    margin-top: 42px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.12);
+}
+
+.highlights h2 {
+    margin: 0 0 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f4e79;
+    letter-spacing: 0.04em;
+}
+
+.highlight-item {
+    margin-bottom: 22px;
+}
+
+.highlight-item:last-child {
+    margin-bottom: 0;
+}
+
+.highlight-meta {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 4px;
+}
+
+.highlight-title {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #222;
+}
+
+    .page {
+      max-width: 780px;
+      margin-left: 12vw;
+      padding: 76px 24px 36px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .photo {
+      width: 118px;
+      height: 118px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.11);
+      flex: 0 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+
+    .title {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .bio {
+      margin: 10px 0 0;
+      font-size: 0.95rem;
+      color: #333;
+      line-height: 1.45;
+    }
+
+    .links {
+      display: flex;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .links a {
+      color: #333;
+      font-size: 1.25rem;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .links a:hover {
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .section {
+      margin-top: 38px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .section h2 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+    }
+
+    .news {
+      margin: 0;
+      max-width: 680px;
+      font-size: 0.95rem;
+      line-height: 1.55;
+      color: #333;
+    }
+
+    .footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .visits {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .visits img {
+      height: 17px;
+      opacity: 0.78;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        margin-left: 0;
+        padding: 44px 22px 30px;
+      }
+
+      .intro {
+        align-items: flex-start;
+      }
+
+      .photo {
+        width: 92px;
+        height: 92px;
+      }
+
+      h1 {
+        font-size: 1.65rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="intro">
+      <img class="photo" src="img/profile_pic.jpeg" alt="Shiv Gehlot" />
+
+      <div>
+        <h1>Shiv Gehlot</h1>
+        <p class="title">Staff Researcher, Dolby Laboratories</p>
+        <p class="bio">Research Areas: Computer Vision, Multimodal Learning, Generative AI</p>
+
+        <nav class="links">
+          <a href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+          <a href="https://github.com/shivgahlout" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/shivgehlot/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- <section class="section">
+      <h2>Latest</h2>
+      <p class="news">
+        Our paper <strong>“A Generative Face Video Coding Framework with Disentangled and Consistent Background”</strong>
+        was accepted to IEEE ICIP 2025 and recognized with <strong>Spotlight</strong> and
+        <strong>Industry Best Paper Award</strong>.
+      </p>
+    </section> -->
+
+    <section class="highlights">
+
+    <h2>Highlights</h2>
+
+    <div class="highlight-item">
+        <div class="highlight-meta">
+            Tutorial · ICVGIP 2025
+        </div>
+
+        <div class="highlight-title">
+            Advances and Challenges in Real-World Video Restoration
+        </div>
+    </div>
+
+    <div class="highlight-item">
+        <div class="highlight-meta">
+            Speaker · ICVGIP 2025
+        </div>
+
+        <div class="highlight-title">
+            Industrial Session
+        </div>
+    </div>
+
+</section>
+
+    <footer class="footer">
+      <span>Last updated · 2026</span>
+      <span class="visits">
+        <i class="fa-regular fa-eye"></i>
+        <img src="https://hits.sh/shivgahlout.github.io.svg?style=flat-square&color=999999&label=&labelColor=ffffff" alt="Visits" />
+      </span>
+    </footer>
+  </main>
+</body>
+</html>
