@@ -17,11 +17,11 @@
 
   <style>
     :root {
-      --bg: #fbfaf8;
-      --text: #222;
-      --muted: #60656f;
-      --accent: #1f4e79;
-      --line: rgba(0,0,0,0.12);
+      --bg: #f5f5f7;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --accent: #0066cc;
+      --line: rgba(29, 29, 31, 0.12);
     }
 
     * {
@@ -30,27 +30,15 @@
 
     html,
     body {
+      margin: 0;
       min-height: 100%;
     }
 
     body {
-      margin: 0;
       min-height: 100vh;
       font-family: "DM Sans", sans-serif;
       color: var(--text);
-
-      background:
-        radial-gradient(
-          circle at 15% 10%,
-          rgba(31,78,121,0.06),
-          transparent 32%
-        ),
-        linear-gradient(
-          135deg,
-          #fdfdfb,
-          #efede8
-        );
-
+      background: var(--bg);
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }
@@ -61,30 +49,38 @@
     }
 
     .page {
-      width: min(680px, calc(100% - 48px));
-      margin-left: clamp(40px, 12vw, 175px);
-      padding-top: 88px;
+      width: min(720px, calc(100% - 48px));
+      min-height: 100vh;
+
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+
+      padding: 64px 0 96px;
     }
 
     .intro {
       display: flex;
       align-items: center;
-      gap: 26px;
+      gap: 28px;
+      width: 100%;
     }
 
     .photo {
-      width: 116px;
-      height: 116px;
+      width: 126px;
+      height: 126px;
+
       flex: 0 0 auto;
 
-      border-radius: 50%;
       object-fit: cover;
+      border-radius: 50%;
 
-      border: 3px solid rgba(255,255,255,0.92);
+      border: 4px solid #ffffff;
 
       box-shadow:
-        0 6px 18px rgba(0,0,0,0.10),
-        0 0 0 1px rgba(0,0,0,0.04);
+        0 10px 30px rgba(0, 0, 0, 0.09),
+        0 0 0 1px rgba(0, 0, 0, 0.04);
     }
 
     .profile-info {
@@ -93,88 +89,130 @@
 
     h1 {
       margin: 0;
-      font-size: 1.95rem;
-      line-height: 1.08;
+
+      font-size: 2.35rem;
+      line-height: 1.02;
+
       font-weight: 700;
-      letter-spacing: -0.035em;
+      letter-spacing: -0.05em;
     }
 
     .title {
-      margin: 7px 0 0;
+      margin: 10px 0 0;
+
       color: var(--muted);
-      font-size: 0.97rem;
+
+      font-size: 1rem;
       font-weight: 500;
     }
 
-    .bio {
-      margin: 10px 0 0;
-      color: #353a41;
-      font-size: 0.94rem;
-      line-height: 1.5;
+    .research-line {
+      margin: 13px 0 0;
+
+      color: #3a3a3c;
+
+      font-size: 0.95rem;
+      line-height: 1.55;
     }
 
     .links {
       display: flex;
       align-items: center;
-      gap: 14px;
-      margin-top: 14px;
+      flex-wrap: wrap;
+
+      gap: 18px;
+
+      margin-top: 18px;
     }
 
     .links a {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      color: #3d4248;
-      font-size: 1.18rem;
+      gap: 7px;
+
+      color: var(--text);
+
+      font-size: 0.9rem;
+      font-weight: 600;
+
+      padding-bottom: 2px;
+
+      border-bottom: 1px solid transparent;
 
       transition:
         color 0.18s ease,
-        transform 0.18s ease;
+        border-color 0.18s ease;
+    }
+
+    .links a i {
+      color: var(--muted);
+      font-size: 0.88rem;
+      transition: color 0.18s ease;
     }
 
     .links a:hover {
       color: var(--accent);
-      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+
+    .links a:hover i {
+      color: var(--accent);
     }
 
     .footer {
       position: fixed;
-      left: clamp(40px, 12vw, 175px);
+
+      left: 50%;
       bottom: 24px;
+
+      width: min(720px, calc(100% - 48px));
+      transform: translateX(-50%);
+
+      padding-top: 16px;
+
+      border-top: 1px solid var(--line);
 
       display: flex;
       align-items: center;
-      gap: 18px;
+      justify-content: space-between;
+
+      gap: 16px;
 
       color: var(--muted);
+
       font-size: 0.78rem;
     }
 
     .visits {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
+
+      gap: 7px;
     }
 
     .visits i {
-      font-size: 0.76rem;
+      font-size: 0.75rem;
     }
 
     .visits img {
       display: block;
+
       height: 16px;
-      opacity: 0.75;
+
+      opacity: 0.74;
     }
 
     @media (max-width: 700px) {
-      body {
-        min-height: auto;
-      }
-
       .page {
         width: auto;
-        margin-left: 0;
-        padding: 48px 22px 30px;
+
+        min-height: auto;
+
+        margin: 0;
+
+        align-items: flex-start;
+
+        padding: 52px 22px 36px;
       }
 
       .intro {
@@ -183,30 +221,47 @@
       }
 
       .photo {
-        width: 90px;
-        height: 90px;
+        width: 92px;
+        height: 92px;
       }
 
       h1 {
-        font-size: 1.65rem;
+        font-size: 1.75rem;
       }
 
       .title {
-        font-size: 0.91rem;
+        font-size: 0.92rem;
       }
 
-      .bio {
+      .research-line {
         font-size: 0.89rem;
+      }
+
+      .links {
+        gap: 14px;
       }
 
       .footer {
         position: static;
-        margin-top: 42px;
-        padding-top: 15px;
 
-        border-top: 1px solid var(--line);
+        width: auto;
+
+        margin: 36px 22px 24px;
+
+        transform: none;
 
         flex-wrap: wrap;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .intro {
+        flex-direction: column;
+      }
+
+      .photo {
+        width: 104px;
+        height: 104px;
       }
     }
   </style>
@@ -229,7 +284,7 @@
           Staff Researcher, Dolby Laboratories
         </p>
 
-        <p class="bio">
+        <p class="research-line">
           Computer Vision · Multimodal Learning · Generative AI
         </p>
 
@@ -238,30 +293,27 @@
             href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Google Scholar"
-            title="Google Scholar"
           >
             <i class="fas fa-graduation-cap"></i>
+            Scholar
           </a>
 
           <a
             href="https://github.com/shivgahlout"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub"
-            title="GitHub"
           >
             <i class="fab fa-github"></i>
+            GitHub
           </a>
 
           <a
             href="https://www.linkedin.com/in/shivgehlot/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="LinkedIn"
-            title="LinkedIn"
           >
             <i class="fab fa-linkedin-in"></i>
+            LinkedIn
           </a>
         </nav>
       </div>
@@ -270,8 +322,9 @@
   </main>
 
   <footer class="footer">
+
     <span>
-      Last updated · 2026
+      Last updated · July 2026
     </span>
 
     <span class="visits">
@@ -282,6 +335,7 @@
         alt="Visits"
       />
     </span>
+
   </footer>
 </body>
 </html>
