@@ -5,8 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shiv Gehlot</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
 
   <style>
     :root {
@@ -19,6 +26,11 @@
 
     * {
       box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
     }
 
     body {
@@ -51,7 +63,7 @@
     .page {
       width: min(680px, calc(100% - 48px));
       margin-left: clamp(40px, 12vw, 175px);
-      padding: 88px 0 34px;
+      padding-top: 88px;
     }
 
     .intro {
@@ -81,28 +93,22 @@
 
     h1 {
       margin: 0;
-
       font-size: 1.95rem;
       line-height: 1.08;
-
       font-weight: 700;
       letter-spacing: -0.035em;
     }
 
     .title {
       margin: 7px 0 0;
-
       color: var(--muted);
-
       font-size: 0.97rem;
       font-weight: 500;
     }
 
     .bio {
       margin: 10px 0 0;
-
       color: #353a41;
-
       font-size: 0.94rem;
       line-height: 1.5;
     }
@@ -110,9 +116,7 @@
     .links {
       display: flex;
       align-items: center;
-
       gap: 14px;
-
       margin-top: 14px;
     }
 
@@ -120,9 +124,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-
       color: #3d4248;
-
       font-size: 1.18rem;
 
       transition:
@@ -136,24 +138,21 @@
     }
 
     .footer {
-      margin-top: 42px;
-      padding-top: 15px;
-
-      border-top: 1px solid var(--line);
+      position: fixed;
+      left: clamp(40px, 12vw, 175px);
+      bottom: 24px;
 
       display: flex;
       align-items: center;
       gap: 18px;
 
       color: var(--muted);
-
       font-size: 0.78rem;
     }
 
     .visits {
       display: inline-flex;
       align-items: center;
-
       gap: 6px;
     }
 
@@ -163,21 +162,19 @@
 
     .visits img {
       display: block;
-
       height: 16px;
-
       opacity: 0.75;
     }
 
     @media (max-width: 700px) {
+      body {
+        min-height: auto;
+      }
+
       .page {
         width: auto;
         margin-left: 0;
-
-        padding:
-          48px
-          22px
-          30px;
+        padding: 48px 22px 30px;
       }
 
       .intro {
@@ -203,6 +200,12 @@
       }
 
       .footer {
+        position: static;
+        margin-top: 42px;
+        padding-top: 15px;
+
+        border-top: 1px solid var(--line);
+
         flex-wrap: wrap;
       }
     }
@@ -211,7 +214,6 @@
 
 <body>
   <main class="page">
-
     <section class="intro">
 
       <img
@@ -221,7 +223,6 @@
       />
 
       <div class="profile-info">
-
         <h1>Shiv Gehlot</h1>
 
         <p class="title">
@@ -233,7 +234,6 @@
         </p>
 
         <nav class="links">
-
           <a
             href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate"
             target="_blank"
@@ -263,28 +263,25 @@
           >
             <i class="fab fa-linkedin-in"></i>
           </a>
-
         </nav>
       </div>
+
     </section>
-
-    <footer class="footer">
-
-      <span>
-        Last updated · 2026
-      </span>
-
-      <span class="visits">
-        <i class="fa-regular fa-eye"></i>
-
-        <img
-          src="https://hits.sh/shivgahlout.github.io.svg?style=flat-square&color=999999&label=&labelColor=ffffff"
-          alt="Visits"
-        />
-      </span>
-
-    </footer>
-
   </main>
+
+  <footer class="footer">
+    <span>
+      Last updated · 2026
+    </span>
+
+    <span class="visits">
+      <i class="fa-regular fa-eye"></i>
+
+      <img
+        src="https://hits.sh/shivgahlout.github.io.svg?style=flat-square&color=999999&label=&labelColor=ffffff"
+        alt="Visits"
+      />
+    </span>
+  </footer>
 </body>
 </html>
