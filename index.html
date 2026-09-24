@@ -48,35 +48,38 @@
       text-decoration: none;
     }
 
+    /*
+      Main content:
+      slightly left of center
+      and slightly above vertical center.
+    */
     .page {
-  width: min(720px, calc(100% - 48px));
+      width: min(720px, calc(100% - 48px));
+      min-height: 100vh;
 
-  min-height: 100vh;
+      margin-left: clamp(48px, 9vw, 140px);
 
-  margin-left: clamp(48px, 9vw, 140px);
+      display: flex;
+      align-items: center;
 
-  display: flex;
-  align-items: center;
+      padding-bottom: 110px;
 
-  padding:
-    0
-    0
-    120px;
-
-  transform: translateY(-6vh);
-}
+      transform: translateY(-5vh);
+    }
 
     .intro {
       display: flex;
       align-items: center;
       gap: 28px;
-      width: 100%;
     }
 
+    /*
+      Keep the portrait clean.
+      No decorative ring or animation.
+    */
     .photo {
-      width: 126px;
-      height: 126px;
-
+      width: 122px;
+      height: 122px;
       flex: 0 0 auto;
 
       object-fit: cover;
@@ -85,8 +88,8 @@
       border: 4px solid #ffffff;
 
       box-shadow:
-        0 10px 30px rgba(0, 0, 0, 0.09),
-        0 0 0 1px rgba(0, 0, 0, 0.04);
+        0 8px 24px rgba(0, 0, 0, 0.09),
+        0 0 0 1px rgba(0, 0, 0, 0.035);
     }
 
     .profile-info {
@@ -96,31 +99,75 @@
     h1 {
       margin: 0;
 
-      font-size: 2.35rem;
-      line-height: 1.02;
+      font-size: 2.15rem;
+      line-height: 1.05;
 
       font-weight: 700;
-      letter-spacing: -0.05em;
+      letter-spacing: -0.045em;
     }
 
-    .title {
-      margin: 10px 0 0;
+    /*
+      Affiliation
+    */
+    .affiliation {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+
+      margin-top: 10px;
 
       color: var(--muted);
-
-      font-size: 1rem;
+      font-size: 0.96rem;
       font-weight: 500;
     }
 
-    .research-line {
-      margin: 13px 0 0;
+    .dolby-logo {
+      display: block;
 
-      color: #3a3a3c;
+      width: auto;
+      height: 15px;
 
-      font-size: 0.95rem;
-      line-height: 1.55;
+      /*
+        Remove this filter if your SVG is
+        already dark/monochrome.
+      */
+      opacity: 0.78;
     }
 
+    /*
+      Research areas:
+      typography rather than icons.
+    */
+    .research-line {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      margin-top: 14px;
+
+      color: #424245;
+
+      font-size: 0.91rem;
+      font-weight: 500;
+
+      letter-spacing: -0.005em;
+    }
+
+    .research-item {
+      white-space: nowrap;
+    }
+
+    .research-separator {
+      margin: 0 9px;
+
+      color: #a1a1a6;
+
+      font-size: 0.72rem;
+    }
+
+    /*
+      External links
+    */
     .links {
       display: flex;
       align-items: center;
@@ -138,7 +185,7 @@
 
       color: var(--text);
 
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-weight: 600;
 
       padding-bottom: 2px;
@@ -152,7 +199,8 @@
 
     .links a i {
       color: var(--muted);
-      font-size: 0.88rem;
+      font-size: 0.86rem;
+
       transition: color 0.18s ease;
     }
 
@@ -164,59 +212,65 @@
     .links a:hover i {
       color: var(--accent);
     }
-.footer {
-  position: fixed;
 
-  left: clamp(48px, 9vw, 140px);
-  right: 48px;
-  bottom: 24px;
+    /*
+      Footer at bottom of viewport.
+    */
+    .footer {
+      position: fixed;
 
-  max-width: 720px;
+      left: clamp(48px, 9vw, 140px);
+      bottom: 24px;
 
-  padding-top: 16px;
+      width: min(720px, calc(100% - 96px));
 
-  border-top: 1px solid var(--line);
+      padding-top: 14px;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+      border-top: 1px solid var(--line);
 
-  gap: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-  color: var(--muted);
-  font-size: 0.78rem;
-}
+      gap: 16px;
+
+      color: var(--muted);
+
+      font-size: 0.76rem;
+    }
 
     .visits {
       display: inline-flex;
       align-items: center;
-
       gap: 7px;
     }
 
     .visits i {
-      font-size: 0.75rem;
+      font-size: 0.74rem;
     }
 
     .visits img {
       display: block;
 
       height: 16px;
-
-      opacity: 0.74;
+      opacity: 0.72;
     }
 
+    /*
+      Tablet / mobile
+    */
     @media (max-width: 700px) {
       .page {
         width: auto;
-
         min-height: auto;
 
-        margin: 0;
+        margin-left: 0;
+
+        padding: 48px 22px 30px;
+
+        transform: none;
 
         align-items: flex-start;
-
-        padding: 52px 22px 36px;
       }
 
       .intro {
@@ -230,15 +284,23 @@
       }
 
       h1 {
-        font-size: 1.75rem;
+        font-size: 1.72rem;
       }
 
-      .title {
-        font-size: 0.92rem;
+      .affiliation {
+        font-size: 0.89rem;
+      }
+
+      .dolby-logo {
+        height: 13px;
       }
 
       .research-line {
-        font-size: 0.89rem;
+        font-size: 0.85rem;
+      }
+
+      .research-separator {
+        margin: 0 6px;
       }
 
       .links {
@@ -252,7 +314,7 @@
 
         margin: 36px 22px 24px;
 
-        transform: none;
+        padding-top: 14px;
 
         flex-wrap: wrap;
       }
@@ -267,11 +329,16 @@
         width: 104px;
         height: 104px;
       }
+
+      .research-line {
+        row-gap: 5px;
+      }
     }
   </style>
 </head>
 
 <body>
+
   <main class="page">
     <section class="intro">
 
@@ -282,17 +349,45 @@
       />
 
       <div class="profile-info">
+
         <h1>Shiv Gehlot</h1>
 
-        <p class="title">
-          Staff Researcher, Dolby Laboratories
-        </p>
+        <div class="affiliation">
+          <span>Staff Researcher</span>
 
-        <p class="research-line">
-          Computer Vision · Multimodal Learning · Generative AI
-        </p>
+          <span>·</span>
+
+          <img
+            class="dolby-logo"
+            src="img/dolby-logo.svg"
+            alt="Dolby"
+          />
+
+          <span>Dolby Laboratories</span>
+        </div>
+
+        <div class="research-line">
+
+          <span class="research-item">
+            Computer Vision
+          </span>
+
+          <span class="research-separator">●</span>
+
+          <span class="research-item">
+            Multimodal Learning
+          </span>
+
+          <span class="research-separator">●</span>
+
+          <span class="research-item">
+            Generative AI
+          </span>
+
+        </div>
 
         <nav class="links">
+
           <a
             href="https://scholar.google.com/citations?hl=en&user=SmSs6d0AAAAJ&view_op=list_works&sortby=pubdate"
             target="_blank"
@@ -319,9 +414,10 @@
             <i class="fab fa-linkedin-in"></i>
             LinkedIn
           </a>
-        </nav>
-      </div>
 
+        </nav>
+
+      </div>
     </section>
   </main>
 
@@ -341,5 +437,6 @@
     </span>
 
   </footer>
+
 </body>
 </html>
