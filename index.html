@@ -49,16 +49,22 @@
     }
 
     .page {
-      width: min(720px, calc(100% - 48px));
-      min-height: 100vh;
+  width: min(720px, calc(100% - 48px));
 
-      margin: 0 auto;
+  min-height: 100vh;
 
-      display: flex;
-      align-items: center;
+  margin-left: clamp(48px, 9vw, 140px);
 
-      padding: 64px 0 96px;
-    }
+  display: flex;
+  align-items: center;
+
+  padding:
+    0
+    0
+    120px;
+
+  transform: translateY(-6vh);
+}
 
     .intro {
       display: flex;
@@ -158,30 +164,28 @@
     .links a:hover i {
       color: var(--accent);
     }
+.footer {
+  position: fixed;
 
-    .footer {
-      position: fixed;
+  left: clamp(48px, 9vw, 140px);
+  right: 48px;
+  bottom: 24px;
 
-      left: 50%;
-      bottom: 24px;
+  max-width: 720px;
 
-      width: min(720px, calc(100% - 48px));
-      transform: translateX(-50%);
+  padding-top: 16px;
 
-      padding-top: 16px;
+  border-top: 1px solid var(--line);
 
-      border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+  gap: 16px;
 
-      gap: 16px;
-
-      color: var(--muted);
-
-      font-size: 0.78rem;
-    }
+  color: var(--muted);
+  font-size: 0.78rem;
+}
 
     .visits {
       display: inline-flex;
