@@ -48,16 +48,11 @@
       text-decoration: none;
     }
 
-    /*
-      Main content:
-      slightly left of center
-      and slightly above vertical center.
-    */
     .page {
-      width: min(720px, calc(100% - 48px));
+      width: min(780px, calc(100% - 48px));
       min-height: 100vh;
 
-      margin-left: clamp(48px, 9vw, 140px);
+      margin-left: clamp(56px, 10vw, 155px);
 
       display: flex;
       align-items: center;
@@ -70,16 +65,12 @@
     .intro {
       display: flex;
       align-items: center;
-      gap: 28px;
+      gap: 32px;
     }
 
-    /*
-      Keep the portrait clean.
-      No decorative ring or animation.
-    */
     .photo {
-      width: 122px;
-      height: 122px;
+      width: 136px;
+      height: 136px;
       flex: 0 0 auto;
 
       object-fit: cover;
@@ -88,7 +79,7 @@
       border: 4px solid #ffffff;
 
       box-shadow:
-        0 8px 24px rgba(0, 0, 0, 0.09),
+        0 9px 26px rgba(0, 0, 0, 0.09),
         0 0 0 1px rgba(0, 0, 0, 0.035);
     }
 
@@ -99,55 +90,46 @@
     h1 {
       margin: 0;
 
-      font-size: 2.15rem;
-      line-height: 1.05;
+      font-size: 2.4rem;
+      line-height: 1.04;
 
       font-weight: 700;
-      letter-spacing: -0.045em;
+      letter-spacing: -0.05em;
     }
 
-    /*
-      Affiliation
-    */
     .affiliation {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
+
       gap: 7px;
 
-      margin-top: 10px;
+      margin-top: 11px;
 
       color: var(--muted);
-      font-size: 0.96rem;
+
+      font-size: 1.02rem;
       font-weight: 500;
     }
 
     .dolby-logo {
       display: block;
-
       width: auto;
-      height: 15px;
+      height: 16px;
 
-      /*
-        Remove this filter if your SVG is
-        already dark/monochrome.
-      */
-      opacity: 0.78;
+      opacity: 0.8;
     }
 
-    /*
-      Research areas:
-      typography rather than icons.
-    */
     .research-line {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
 
-      margin-top: 14px;
+      margin-top: 15px;
 
       color: #424245;
 
-      font-size: 0.91rem;
+      font-size: 0.96rem;
       font-weight: 500;
 
       letter-spacing: -0.005em;
@@ -158,34 +140,32 @@
     }
 
     .research-separator {
-      margin: 0 9px;
+      margin: 0 10px;
 
       color: #a1a1a6;
 
-      font-size: 0.72rem;
+      font-size: 0.76rem;
     }
 
-    /*
-      External links
-    */
     .links {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
 
-      gap: 18px;
+      gap: 20px;
 
-      margin-top: 18px;
+      margin-top: 20px;
     }
 
     .links a {
       display: inline-flex;
       align-items: center;
+
       gap: 7px;
 
       color: var(--text);
 
-      font-size: 0.88rem;
+      font-size: 0.94rem;
       font-weight: 600;
 
       padding-bottom: 2px;
@@ -199,7 +179,8 @@
 
     .links a i {
       color: var(--muted);
-      font-size: 0.86rem;
+
+      font-size: 0.92rem;
 
       transition: color 0.18s ease;
     }
@@ -213,18 +194,15 @@
       color: var(--accent);
     }
 
-    /*
-      Footer at bottom of viewport.
-    */
     .footer {
       position: fixed;
 
-      left: clamp(48px, 9vw, 140px);
+      left: clamp(56px, 10vw, 155px);
       bottom: 24px;
 
-      width: min(720px, calc(100% - 96px));
+      width: min(780px, calc(100% - 112px));
 
-      padding-top: 14px;
+      padding-top: 15px;
 
       border-top: 1px solid var(--line);
 
@@ -236,29 +214,28 @@
 
       color: var(--muted);
 
-      font-size: 0.76rem;
+      font-size: 0.8rem;
     }
 
     .visits {
       display: inline-flex;
       align-items: center;
+
       gap: 7px;
     }
 
     .visits i {
-      font-size: 0.74rem;
+      font-size: 0.78rem;
     }
 
     .visits img {
       display: block;
 
-      height: 16px;
-      opacity: 0.72;
+      height: 17px;
+
+      opacity: 0.74;
     }
 
-    /*
-      Tablet / mobile
-    */
     @media (max-width: 700px) {
       .page {
         width: auto;
@@ -275,36 +252,40 @@
 
       .intro {
         align-items: flex-start;
-        gap: 18px;
+        gap: 20px;
       }
 
       .photo {
-        width: 92px;
-        height: 92px;
+        width: 100px;
+        height: 100px;
       }
 
       h1 {
-        font-size: 1.72rem;
+        font-size: 1.85rem;
       }
 
       .affiliation {
-        font-size: 0.89rem;
+        font-size: 0.94rem;
       }
 
       .dolby-logo {
-        height: 13px;
+        height: 14px;
       }
 
       .research-line {
-        font-size: 0.85rem;
+        font-size: 0.89rem;
       }
 
       .research-separator {
-        margin: 0 6px;
+        margin: 0 7px;
       }
 
       .links {
-        gap: 14px;
+        gap: 16px;
+      }
+
+      .links a {
+        font-size: 0.9rem;
       }
 
       .footer {
@@ -326,8 +307,8 @@
       }
 
       .photo {
-        width: 104px;
-        height: 104px;
+        width: 108px;
+        height: 108px;
       }
 
       .research-line {
@@ -340,6 +321,7 @@
 <body>
 
   <main class="page">
+
     <section class="intro">
 
       <img
@@ -418,7 +400,9 @@
         </nav>
 
       </div>
+
     </section>
+
   </main>
 
   <footer class="footer">
